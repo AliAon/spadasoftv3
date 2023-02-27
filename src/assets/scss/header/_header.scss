@@ -1,0 +1,32 @@
+.desktop-header {
+    background: rgba(0, 0, 0, 0.24);
+    padding:10px;
+    &__hop-on-call{
+        background: linear-gradient(314.91deg, #246930 0%, #1AB700 98.64%);
+        border:0px;
+        font-family: Montserrat;
+        font-size: var(--font-buton-3);
+        padding-top: 15px;
+        padding-left: 30px;
+        border:2px solid var(--Active-Green-);
+        padding-right: 30px;
+        padding-bottom: 15px;
+        transition-property: all;
+
+    }
+    &__hop-on-call:hover{
+        background: white;
+        color: #1AB700;
+        transform: scale(1.1);
+        font-family: Montserrat;
+        border:2px solid #fff;
+        font-size: var(--font-buton-3);
+        transition-duration: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .desktop-header {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.cardOne{
+    &__date{
+        font-family: Montserrat;
+        color: var(--color-date);
+        padding-top: 10px;
+        font-size: var(--font-body-3);
+    }
+    &__title{
+        font-family: Montserrat-Bold;
+        color: var(--color-card-title);
+        font-size: var(h4);
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    &__description{
+        font-family: Montserrat;
+        color: #6C757D;
+        line-height: 20px;
+        font-size: var(--font-body-3);
+    }
+    
+}

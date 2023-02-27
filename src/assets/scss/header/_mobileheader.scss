@@ -1,0 +1,47 @@
+/*-------------------------
+   Header Styles
+-------------------------*/
+.mobile-header {
+   padding: 16px;
+}
+.btn-togle {
+   background-color: var(--color-primary) !important;
+   font-size: var(--font-buton-4) !important;
+   color: #ffffff !important;
+   border-radius: 10px !important;
+   font-family: Manrope !important;
+   border: 0 !important;
+   padding: 6px;
+   float: right;
+}
+
+@media only screen and (max-width: 479px) {
+   .container {
+      padding:0;
+      margin:0;
+    }
+
+   .logo-trans__img {
+      width: 100%;
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .logo-trans__img {
+      width: auto;
+   }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .logo-trans__img {
+      width: auto;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   .logo-trans__img {
+      width: auto;
+   }
+}
+@media only screen and (min-width: 992px) {
+   .mobile-header {
+      display: none;
+   }
+}

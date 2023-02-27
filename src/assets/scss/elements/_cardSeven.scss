@@ -1,0 +1,28 @@
+.cardSeven {
+    background:#EEF5E8;;
+    box-shadow: 0px 4px 32px rgba(35, 26, 77, 0.16);
+    position: relative;
+    padding: 15px;
+    &__title{
+        font-family: Montserrat-SemiBold;
+        color: #1C182B;
+        font-size: var( --h3);
+        padding-top: 15px;
+        line-height: 25px;
+    }
+    &__description{
+        font-family: Montserrat;
+        color: #5E626C;
+        line-height: 20px;
+        font-size: var(--font-body-3);
+    }
+    &__apply-now{
+        border: 0px;
+        width: 100%;
+        color: white;
+        border-radius: 10px;
+        padding: 3px;
+        background: linear-gradient(90.1deg, rgba(36, 105, 48, 0.7) 0.12%, rgba(26, 183, 0, 0.7) 99.96%);
+
+    }
+}

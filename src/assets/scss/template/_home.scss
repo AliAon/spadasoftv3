@@ -1,0 +1,91 @@
+/*-------------------------
+   Home 
+-------------------------*/
+
+.header {
+   color: var(--color-primary);
+   font-size: var(--h4);
+}
+
+/*-------------------------
+   Hero 
+-------------------------*/
+
+
+
+@media only screen and (max-width: 479px) {
+  
+}
+
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+}
+
+/*-------------------------
+   Hero 
+-------------------------*/
+.section-hero {
+   background-image: url("../../../../public/images/card/hero-bg-home1.png");
+   padding-top: 8rem;
+   padding-left: 30px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-bottom: 8rem;
+   &__developer-image{
+      margin-left: -50px;
+      margin-right: 10px;
+   }
+   &__title {
+      font-family: Montserrat-Light;
+      font-size: var(--h1);
+      margin-bottom: 20px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: #FFFFFF;
+   }
+   &__description {
+      font-family: Montserrat;
+      font-size: var(--font-body-1);
+      margin-bottom: 20px;
+      color: #FFFFFF;
+   }
+   &__img {
+      width: 100%;
+   }
+}
+
+@media only screen and (max-width: 479px) {
+   .section-hero {
+      // margin-left: 15px;
+      padding: 15px;
+      &__brand-img {
+         width: 100%;
+      }
+      &__title {
+         font-size: var(--h4);
+      }
+      &__description {
+         font-size: var(--font-body-2);
+      }
+    
+   }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .section-hero {
+      &__title {
+         font-size: var(--h4);
+      }
+   }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .section-hero {
+      &__title {
+         font-size: var(--h4);
+      }
+   }
+}
+

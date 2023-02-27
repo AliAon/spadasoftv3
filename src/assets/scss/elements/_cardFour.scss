@@ -1,0 +1,47 @@
+.cardFour {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(35, 26, 77, 0.16);
+    border-radius: 10px;
+    padding: 40px;
+    padding-top: 60px;
+    border-top:3px solid var(--Default);
+    position: relative;
+    &__image{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__width{
+        width: 100%;
+    }
+    &__title{
+        font-family: Montserrat;
+        color: #1C182B;
+        font-size: var( --h3);
+        padding-top: 15px;
+        line-height: 25px;
+    }
+    &__testimonial{
+        &__name{
+            color: #1C182B;
+            font-family: Montserrat-Medium;
+            font-size: var(--font-body-2);
+
+      }
+    }
+    &__description{
+        font-family: Montserrat;
+        color: #5E626C;
+        line-height: 20px;
+        font-size: var(--font-body-3);
+    }
+    &__weblink{
+        font-family: Montserrat;
+        color: #9CA5B1;
+        line-height: 20px;
+        font-size: var(--font-body-3);
+    }
+}

@@ -1,0 +1,111 @@
+//@mixin
+
+@mixin product_des {
+   text-align: left;
+   font-size: var(--font-body-3);
+   color: var(--color-twelve);
+   font-weight: 500;
+   font-family: Manrope;
+}
+@mixin product__title {
+   text-align: left;
+   font-family: Manrope;
+   color: var(--color-text-dark);
+   font-size: var(--font-body-2);
+}
+//images
+
+@mixin image-main {
+   width: 100%;
+   height: 100%;
+}
+//button
+@mixin primary_button {
+   background-color: var(--color-primary)!important;
+   font-size: var(--font-buton-2)!important;
+   color: #ffffff!important;
+   border-radius: 15px!important;
+   font-family: Manrope!important;
+   border: 0!important;
+   padding-left: 15px!important;
+   padding-right: 15px!important;
+   padding-top: 5px!important;
+   padding-bottom: 5px!important;
+}
+//card
+@mixin card {
+   border: 1px solid #a7a7a7;
+   border-radius: 15px;
+   padding: 15px;
+}
+//blog
+@mixin blog__title {
+   text-align: left;
+   color: var(--color-text-dark);
+   font-size: var(--font-body-2);
+   line-height: 1.5;
+}
+
+//brand
+.brand {
+   color: #a7a7a7;
+   font-size: var(--h4);
+   font-weight: 400;
+   text-align: center;
+}
+.btn-block {
+   width: 100%;
+}
+.forget-passwrd {
+   float: right;
+}
+.forget-passwrd::after {
+   clear: both;
+}
+
+//no wrap
+.x-nowrap {
+   flex-wrap: nowrap;
+}
+
+input::placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #303030;
+   opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: #303030;
+}
+
+::-ms-input-placeholder {
+   /* Microsoft Edge */
+   color: #303030;
+}
+//Outline Button
+@mixin outline-btn {
+   font-family: "Mitr";
+   font-style: normal;
+   color: #8f5e25;
+   border: 0.635px solid #8f5e25;
+   border-radius: 16px;
+   border-color: #8f5e25;
+   font-weight: 400;
+   width: 133px;
+   height: 46px;
+   font-size:var(--font-body-2);
+   line-height: 22px;
+}
+.text-underline{
+   text-decoration: underline;
+}
+//alignment
+.align-item-bottom{
+   margin-top: auto;
+}
+//logo
+
+// .logo-trans__img{
+//    width: 100%;
+// }

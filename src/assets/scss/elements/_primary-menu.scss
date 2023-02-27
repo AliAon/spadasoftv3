@@ -1,0 +1,20 @@
+.primary-nav-link{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li{
+        color: #fff;
+        
+    }
+    &__a{
+        font-family: Montserrat;
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    &__a:hover{
+        font-family: Montserrat;
+        color: #1E9316;
+     }
+}
