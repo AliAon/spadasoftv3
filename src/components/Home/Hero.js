@@ -8,7 +8,7 @@ const Hero = (props) => {
          <img className="section-hero__developer-image" src="./images/Rectangle.png"/>
          <span className="section-hero__description">Developers</span>
         <Row className=" gx-0 mb--30 align-items-center">
-          <Col lg={9} md={6}>
+          <Col lg={9} >
             <h2 className="section-hero__title">
               We Build Your Digital Appearance
             </h2>

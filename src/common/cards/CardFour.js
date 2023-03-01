@@ -1,11 +1,7 @@
 import { FaFacebook, FaTwitter, FaPaperPlane } from "react-icons/fa";
 const CardFour = () => {
   return (
-    <div
-      style={{
-        width: "310px",
-      }}
-    >
+   
       <div className="cardFour">
         <img className="cardFour__image" src="./images/card/Image-5.png"/>
         <p className="cardFour__description">
@@ -16,7 +12,6 @@ const CardFour = () => {
 
         <p className="cardFour__weblink">www.clientwebsite.com</p>
       </div>
-    </div>
   );
 };
 export default CardFour;

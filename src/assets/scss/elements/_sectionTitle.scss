@@ -1,25 +1,21 @@
 .section {
     &__title {
-        font-size: var(--h4);
-        color: var(--color---h3-text-dark);
+        font-size: var(--h2);
         line-height: 1.5;
-        color: black;
-        font-family: Manrope-Bold;
-        &-first {
-            color: var(--color-seventh);
-        }
+        color: #1C182B;
+        font-family: Montserrat-SemiBold;
+     
     }
     &__subtitle {
-        font-size: var(--h5);
-        color: var(--color-secondary);
+        font-size: var(--font-body-3);
+        color: #9ca5b1;
         line-height: 1.5;
-        font-family: Manrope;
+        font-family: Montserrat;
     }
     &__description {
-        color: #828282;
-        font-size: var(--color---h3-text-dark);
-        color: var(--color-light-grey);
-        font-family: Mitr;
+        color: #9ca5b1;
+        font-size: var(--font-body-3);
+        font-family: Montserrat;
     }
 }
 
@@ -35,7 +31,7 @@
             font-size: var(--h5);
             color: var(--color-secondary);
             line-height: 1.5;
-            font-family: Manrope;
+            font-family: Montserrat;
         }
     }
     .row__section-title {
@@ -58,7 +54,7 @@
             font-size: var(--h5);
             color: var(--color-secondary);
             line-height: 1.5;
-            font-family: Manrope;
+            font-family: Montserrat;
         }
     }
 }
@@ -74,7 +70,7 @@
             font-size: var(--h5);
             color: var(--color-secondary);
             line-height: 1.5;
-            font-family: Manrope;
+            font-family: Montserrat;
         }
     }
 }

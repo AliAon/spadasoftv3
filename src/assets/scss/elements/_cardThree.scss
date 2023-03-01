@@ -7,10 +7,11 @@
         width: 100%;
     }
     &__title{
-        font-family: Montserrat;
+        font-family: Montserrat-SemiBold;
         color: #1C182B;
         font-size: var( --h3);
-        padding-top: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
         line-height: 25px;
     }
     &__description{
@@ -20,3 +21,34 @@
         font-size: var(--font-body-3);
     }
 }
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .cardThree {
+        padding: 15px;
+        &__title{
+            font-size: var( --h4);
+        }
+        &__description{
+            font-family: Montserrat;
+            color: #5E626C;
+            line-height: 20px;
+            font-size: var(--font-body-3);
+        }
+    }
+ }
+ @media only screen and (min-width: 479px) and (max-width: 576px) {
+   
+ }
+ @media only screen and (max-width: 479px) {
+    .cardThree {
+        padding: 25px;
+        &__title{
+            font-size: var( --h4);
+        }
+        &__description{
+            font-family: Montserrat;
+            color: #5E626C;
+            line-height: 20px;
+            font-size: var(--font-body-3);
+        }
+    }
+ }

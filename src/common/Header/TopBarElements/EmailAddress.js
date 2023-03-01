@@ -11,7 +11,7 @@ const EmailAddress=(props)=>{
                  <FaEnvelope size={15} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10} xs={10}>
-                    <a href="mailto:info@acflimo.com"><span className={`email-text color-${props.color}`}>info@acflimo.com</span></a>
+                    <a href="mailto:mail@domain.com"><span className={`email-text color-${props.color}`}>mail@domain.com</span></a>
                 </Col>
             </Row>
        </Fragment>

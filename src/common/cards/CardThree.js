@@ -1,20 +1,15 @@
 import { FaFacebook, FaTwitter,FaPaperPlane } from "react-icons/fa";
-const CardThree = () => {
+const CardThree = (props) => {
+  const {title,description,icon,background,colorwhite,boxshadow}=props
+
   return (
-    <div
-      style={{
-        width: "310px",
-      }}
-    >
-      <div className="cardThree">
-        <FaPaperPlane size={35} />
-        <h4 className="cardThree__title">Strategic & Planning</h4>
-        <p className="cardThree__description">
-          Save time and energy with our in-house professionals so you can focus
-          on what matters on your business.​
+      <div className={`cardThree ${background} ${boxshadow}`} >
+        {icon}
+        <h4 className={`cardThree__title ${colorwhite}`}>{title}</h4>
+        <p className={`cardThree__description ${colorwhite}`}>
+         {description}
         </p>
       </div>
-    </div>
   );
 };
 export default CardThree;

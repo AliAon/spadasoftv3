@@ -10,7 +10,7 @@ const LocationAddress=(props)=>{
                  <FaMapMarkerAlt size={15} color={props["icon-color"]}/>
                 </Col>
                 <Col  lg={10} xs={10}>
-                    <Link to="https://goo.gl/maps/MqrWcrrVeEeKj3oA6"><span className={`email-text color-${props.color}`}>80 Fair st suite 301 Norwalk CT 06851</span></Link>
+                    <Link to="https://goo.gl/maps/MqrWcrrVeEeKj3oA6"><span className={`email-text color-${props.color}`}>1772 Nevskaya Street NW, Suite 21389, Atlanta, GA 902344</span></Link>
                 </Col>
             </Row>
        </Fragment>

@@ -68,12 +68,12 @@ STYLESHEET INDEXING
 2. Elements Styles
 =========================================================================*/
 @import "elements/primary-menu";
-// @import "elements/global";
-@import "elements/primary-menu";
-// @import "elements/emailaddress";
+@import "elements/global";
+@import "elements/primary-menu-mobile";
+@import "elements/emailaddress";
 @import "elements/phonenumber";
 // @import "elements/getQuoteFrom";
-// @import "elements/sectionTitle";
+@import "elements/sectionTitle";
 // @import "elements/map";
 // @import "elements/backToTop";
 @import "elements/cardOne";
@@ -83,6 +83,7 @@ STYLESHEET INDEXING
 @import "elements/cardFive";
 @import "elements/cardSix";
 @import "elements/cardSeven";
+@import "elements/cardEight";
 
 
 /*=======================================================================
@@ -95,8 +96,8 @@ STYLESHEET INDEXING
 4.Blocks Styles 
 =========================================================================*/
 @import "header/header";
-// @import "header/mobileheader";
-// @import "footer/footer";
+@import "header/mobileheader";
+@import "footer/footer";
 
 /*=======================================================================
 5. Dark Style 

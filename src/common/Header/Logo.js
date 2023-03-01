@@ -5,7 +5,7 @@ const Logo=()=>{
     return(
         <div className="logo-img">
             <Link to="/">
-            <img src="./images/ndl-logo.png"/>
+            <img src="./images/logo/Logo (1).png"/>
             </Link>
         </div>
     )

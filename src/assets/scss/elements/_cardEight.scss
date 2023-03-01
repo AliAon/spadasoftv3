@@ -1,0 +1,21 @@
+.cardEight {
+    &__subtitle{
+        font-family: Montserrat;
+        color:#9CA5B1;
+        font-size: var(--font-body-3);
+    }
+
+    &__title{
+        font-family: Montserrat-SemiBold;
+        color: #1C182B;
+        font-size: var( --h2);
+        line-height: 46px;
+    }
+    &__description{
+        font-family: Montserrat;
+        color: #5E626C;
+        line-height: 26px;
+        font-size: var(--font-body-3);
+    }
+
+}

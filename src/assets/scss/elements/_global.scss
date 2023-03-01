@@ -1,36 +1,56 @@
-//@mixin
-
-@mixin product_des {
-   text-align: left;
-   font-size: var(--font-body-3);
-   color: var(--color-twelve);
-   font-weight: 500;
-   font-family: Manrope;
-}
-@mixin product__title {
-   text-align: left;
-   font-family: Manrope;
-   color: var(--color-text-dark);
-   font-size: var(--font-body-2);
-}
-//images
-
-@mixin image-main {
-   width: 100%;
-   height: 100%;
-}
 //button
-@mixin primary_button {
-   background-color: var(--color-primary)!important;
-   font-size: var(--font-buton-2)!important;
-   color: #ffffff!important;
-   border-radius: 15px!important;
-   font-family: Manrope!important;
-   border: 0!important;
-   padding-left: 15px!important;
-   padding-right: 15px!important;
-   padding-top: 5px!important;
-   padding-bottom: 5px!important;
+.btn-default {
+   background-color: var(--Default);
+   border: 0px;
+   padding-top: 18px;
+   font-family: Montserrat;
+   padding-bottom: 18px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: white;
+   border-radius: 3px;
+   border: 2px solid var(--Default);
+   transition-property: all;
+}
+.btn-default-white {
+   background-color: white;
+   border: 0px;
+   padding-top: 18px;
+   font-family: Montserrat;
+   padding-bottom: 18px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: var(--Default);
+   border-radius: 3px;
+   border: 2px solid white;
+   transition-property: all;
+}
+.btn-default-white:hover {
+   font-family: Montserrat;
+   background-color: var(--Default);
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-left: 30px;
+   padding-right: 30px;
+   transition-duration: 0.3s;
+   color: white;
+   border-radius: 3px;
+   border: 2px solid var(--Default);
+}
+.btn-default:hover {
+   font-family: Montserrat;
+   background-color: white;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-left: 30px;
+   padding-right: 30px;
+   transition-duration: 0.3s;
+   color: var(--Active-Green-);
+   border-radius: 3px;
+   border: 2px solid var(--Default);
+}
+.gradient-back {
+   background: linear-gradient(314.91deg, #246930 0%, #1ab700 98.64%) !important;
 }
 //card
 @mixin card {
@@ -38,21 +58,7 @@
    border-radius: 15px;
    padding: 15px;
 }
-//blog
-@mixin blog__title {
-   text-align: left;
-   color: var(--color-text-dark);
-   font-size: var(--font-body-2);
-   line-height: 1.5;
-}
 
-//brand
-.brand {
-   color: #a7a7a7;
-   font-size: var(--h4);
-   font-weight: 400;
-   text-align: center;
-}
 .btn-block {
    width: 100%;
 }
@@ -94,18 +100,40 @@ input::placeholder {
    font-weight: 400;
    width: 133px;
    height: 46px;
-   font-size:var(--font-body-2);
+   font-size: var(--font-body-2);
    line-height: 22px;
 }
-.text-underline{
+.text-underline {
    text-decoration: underline;
 }
 //alignment
-.align-item-bottom{
+.align-item-bottom {
    margin-top: auto;
 }
-//logo
+//white
+.color-white {
+   color: white !important;
+}
+.noboxshadow {
+   box-shadow: none !important;
+}
+.removespacing {
+   box-shadow: none !important;
+}
+.dot-pattern__image {
+   left: -30px;
+   top: 170px;
+}
+.dot-pattern__image-another{
+   right: 0px;
+   top: -100px;
+}
+@media only screen and (max-width: 479px) {
+   .dot-pattern__image-another{
+      display: none;
+   }
+}
+.img_height-460{
+   height: 460px;
 
-// .logo-trans__img{
-//    width: 100%;
-// }
+}

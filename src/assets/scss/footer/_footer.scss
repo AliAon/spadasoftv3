@@ -4,12 +4,9 @@
 .footer{
    background-color: var(--body-background);
    padding-top: 40px;
-   &__about-text{
-      font-size: var(--font-body-3)
-   }
    &__menu-title{
       font-style: normal;
-      font-family: Manrope;
+      font-family: Montserrat;
       font-weight: 700;
       font-size:  var( --font-body-2);
       line-height: var(--line-height-b1);
@@ -17,30 +14,40 @@
    }
    &__menu-lnks{ 
       list-style: none;
-      margin-left: -20px;
+      padding: 0px;
         li{
-         font-family: Manrope;
-         color: var(--color-eighth);
-         font-size:  var(--font-body-3);
+         font-family: Montserrat;
+         color: #5E626C;
+         font-size:  var(--font-body-2);
          line-height:var(--line-height-b1);
       }
       li:hover{
-         color: #4f3313;
+         color: var(--Active-Green-);
+         font-weight: bold;
+
+      }
+      span:hover{
+         color: var(--Active-Green-);
          font-weight: bold;
 
       }
       
    }
    &__about-text{
-      font-family: Manrope;
+      font-family: Montserrat;
       font-weight: 400;
-      font-size: var(--font-body-3)
+      padding-top: 10px;
+      color: #5E626C;
+      font-size: var(--font-body-2);
+      padding-right: 15px;
    }
    &__copyright{
       font-size:  var(--font-body-3);
-      font-family: Manrope;
+      font-family: Montserrat;
       font-weight: 400;
+      padding-right: 15px;
       text-align: center;
+      color: var(--color-card-text);
    }
    @media only screen and (max-width: 479px) {
    &__logo{

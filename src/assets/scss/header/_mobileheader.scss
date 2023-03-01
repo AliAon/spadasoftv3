@@ -3,13 +3,15 @@
 -------------------------*/
 .mobile-header {
    padding: 16px;
+   background: rgba(0, 0, 0, 0.24);
+
 }
 .btn-togle {
    background-color: var(--color-primary) !important;
    font-size: var(--font-buton-4) !important;
    color: #ffffff !important;
    border-radius: 10px !important;
-   font-family: Manrope !important;
+   font-family: Montserrat !important;
    border: 0 !important;
    padding: 6px;
    float: right;
@@ -21,9 +23,7 @@
       margin:0;
     }
 
-   .logo-trans__img {
-      width: 100%;
-   }
+   
 }
 @media only screen and (min-width: 479px) and (max-width: 576px) {
    .logo-trans__img {

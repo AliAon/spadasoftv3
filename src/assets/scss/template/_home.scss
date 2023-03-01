@@ -10,31 +10,14 @@
 /*-------------------------
    Hero 
 -------------------------*/
-
-
-
-@media only screen and (max-width: 479px) {
-  
-}
-
-@media only screen and (min-width: 479px) and (max-width: 576px) {
-   
-}
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-  
-}
-
-/*-------------------------
-   Hero 
--------------------------*/
 .section-hero {
    background-image: url("../../../../public/images/card/hero-bg-home1.png");
-   padding-top: 8rem;
+   padding-top: 12rem;
    padding-left: 30px;
    background-size: cover;
    background-repeat: no-repeat;
-   padding-bottom: 8rem;
-   &__developer-image{
+   padding-bottom: 12rem;
+   &__developer-image {
       margin-left: -50px;
       margin-right: 10px;
    }
@@ -44,48 +27,115 @@
       margin-bottom: 20px;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      color: #FFFFFF;
+      color: #ffffff;
    }
    &__description {
       font-family: Montserrat;
       font-size: var(--font-body-1);
       margin-bottom: 20px;
-      color: #FFFFFF;
+      color: #ffffff;
    }
    &__img {
       width: 100%;
    }
 }
-
-@media only screen and (max-width: 479px) {
-   .section-hero {
-      // margin-left: 15px;
-      padding: 15px;
-      &__brand-img {
-         width: 100%;
-      }
-      &__title {
-         font-size: var(--h4);
-      }
-      &__description {
-         font-size: var(--font-body-2);
-      }
-    
-   }
-}
-
-@media only screen and (min-width: 479px) and (max-width: 576px) {
-   .section-hero {
-      &__title {
-         font-size: var(--h4);
-      }
-   }
+/*-------------------------
+   Process 
+-------------------------*/
+.process-section {
+   margin-top: -130px;
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
    .section-hero {
       &__title {
-         font-size: var(--h4);
+         font-size: var(--h2);
+      }
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .section-hero {
+      &__title {
+         font-size: var(--h2);
+      }
+   }
+}
+@media only screen and (max-width: 479px) {
+   .section-hero {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+
+      &__title {
+         font-size: var(--h2);
+      }
+      &__brand-img {
+         width: 100%;
+      }
+      &__description {
+         font-size: var(--font-body-2);
+      }
+   }
+   .process-section {
+      padding: 15px;
+   }
+}
+
+/*-------------------------
+   About 
+-------------------------*/
+.section-about {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   &__img {
+      width: 100%;
+      position: relative;
+      z-index: 0;
+   }
+   &__title {
+      font-size: var(--h2);
+   }
+   &__logo {
+      left: -60px;
+      bottom: 25px;
+   }
+   &__oval-pattern {
+      margin-top: -23px;
+   }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+}
+@media only screen and (max-width: 479px) {
+   .section-about {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 15px;
+      &__logo {
+         left: -30px;
+         bottom: 17px;
       }
    }
 }
 
+/*-------------------------
+Testmonials
+-------------------------*/
+.section__testimonial{
+   background: #EEF5E8;
+}
+/*-------------------------
+CTA
+-------------------------*/
+
+.cta-section{
+   background-image:url('../../../../public/images/Image\ \(12\).png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   padding-top: 10rem;
+   padding-bottom: 10rem;
+   border-radius: 5px;
+
+}

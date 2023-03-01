@@ -1,39 +1,38 @@
 .primary-nav-link-mobile {
     &__title{
-        color: var(--color-text-dark);
-        font-size: var(--h6);
+        font-size: var(--h3);
         padding-top: 20px;
         text-align: center;
-        font-family: Manrope-Bold;
-        color: var(--color-secondary);
+        font-family: Montserrat-SemiBold;
+        color: var(--Default);
     }
     list-style: none;
     padding: 0px;
     &__a{
         line-height: 36px;
-        color: var(--color-twelve);
+        color: var(--color-card-title);
         text-decoration: none;
         text-align: center;
         display: block;
-        font-family: Manrope;
+        font-family: Montserrat;
         font-size: var(--font-body-1);
     }
     &__a:active{
         line-height: 36px!important;
-        color: var(--color-twelve)!important;
+        color: var(--Active-Green-)!important;
         text-decoration: none!important;
         text-align: center!important;
         display: block!important;
-        font-family: Manrope!important;
+        font-family: Montserrat!important;
         font-size: var(--font-body-1)!important;
     }
     &__a:hover{
         line-height: 36px!important;
-        color: var(--color-twelve)!important;
+        color: var(--Active-Green-)!important;
         text-decoration: none!important;
         text-align: center!important;
         display: block!important;
-        font-family: Manrope!important;
+        font-family: Montserrat!important;
         font-size: var(--font-body-1)!important;
     }
 }
