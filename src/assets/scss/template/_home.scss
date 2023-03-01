@@ -12,11 +12,11 @@
 -------------------------*/
 .section-hero {
    background-image: url("../../../../public/images/card/hero-bg-home1.png");
-   padding-top: 12rem;
+   padding-top: 12.5rem;
    padding-left: 30px;
    background-size: cover;
    background-repeat: no-repeat;
-   padding-bottom: 12rem;
+   padding-bottom: 12.5rem;
    &__developer-image {
       margin-left: -50px;
       margin-right: 10px;
@@ -117,10 +117,48 @@
       }
    }
 }
-
 /*-------------------------
-Testmonials
+Featured Works
 -------------------------*/
+.gird_image{
+   height: 460px;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .gird_image{
+      height: unset!important;
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .gird_image{
+      height: unset!important;
+   }
+}
+@media only screen and (max-width: 479px) {
+   .section-about {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 15px;
+      &__logo {
+         left: -30px;
+         bottom: 17px;
+      }
+   }
+   .gird_image{
+      height: unset!important;
+   }
+}
+.fig-img{
+   overflow: hidden;
+}
+.fig-img img{
+   transition: all;
+   transition: 0.3s transform;
+}
+.fig-img img:hover{
+   transform: scale(1.25);
+}
+
 .section__testimonial{
    background: #EEF5E8;
 }

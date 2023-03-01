@@ -3,6 +3,7 @@
     box-shadow: 0px 4px 32px rgba(35, 26, 77, 0.16);
     border-radius: 10px;
     padding: 40px;
+    max-width: 355px;
     padding-top: 60px;
     border-top:3px solid var(--Default);
     position: relative;
@@ -45,3 +46,21 @@
         font-size: var(--font-body-3);
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .cardFour {
+        max-width: 370px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .cardFour {
+        max-width: 300px;
+    }
+ }
+ @media only screen and (min-width: 479px) and (max-width: 576px) {
+    .cardFour {
+        max-width: 260px;
+    }
+ }
+ @media only screen and (max-width: 479px) {
+   
+ }

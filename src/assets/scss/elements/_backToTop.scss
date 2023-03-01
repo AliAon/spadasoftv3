@@ -1,17 +1,16 @@
 #scrolltopbtn{
-   position: fixed; 
+   position: fixed;
    right: 2%;
    bottom: 20px;
    z-index: 999;
-   background-color: #4f3313
-   ;
-   border-color: #4f3313
-   ;
-   border-radius: 5px;
+   background-color: #1AB700;
+   border-color: #1AB700;
+   border-radius: 50%;
    cursor: pointer;
-   padding-top: 8px;
-   padding-left: 13px;
-   padding-right: 13px;
-   padding-bottom: 8px;
+   outline: none;
+   padding-top: 13px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
    overflow: hidden;
 }

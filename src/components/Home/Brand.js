@@ -13,7 +13,7 @@ const Brand = (props) => {
           align="center"
           title="Trusted By Big Companies"
         />
-        <Row>
+        <Row className="removespacing gy-4">
             <Col>
             <img src="./images/brand/logo-1.png"/>
             </Col>

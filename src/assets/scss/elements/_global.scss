@@ -117,9 +117,7 @@ input::placeholder {
 .noboxshadow {
    box-shadow: none !important;
 }
-.removespacing {
-   box-shadow: none !important;
-}
+
 .dot-pattern__image {
    left: -30px;
    top: 170px;
@@ -132,8 +130,23 @@ input::placeholder {
    .dot-pattern__image-another{
       display: none;
    }
+   .removespacing {
+      padding-left: 0px!important;
+      padding-right: 0px!important;
+      margin-left: 0px!important;
+      margin-right: 0px!important;
+   
+   }
 }
-.img_height-460{
-   height: 460px;
-
+.crouselItem{
+   padding: 10px;
+}
+.crousel-card{
+   margin: 5px;
+}
+.containerCrousel{
+   padding-top: 3rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-bottom: 1rem;
 }

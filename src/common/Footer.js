@@ -24,7 +24,7 @@ const Footer = () => {
               1772 Nevskaya Stree t NW, Suite 21389, Atlanta, GA 902344
             </p>
           </Col>
-          <Col lg={3} xs={6}>
+          <Col lg={3} md={4} xs={6}>
             <h5 className="footer__menu-title mb--20">QUICK LINKS</h5>
             <ul className="footer__menu-lnks">
               <Link to="/">
@@ -69,14 +69,14 @@ const Footer = () => {
               </Link>
             </ul>
           </Col>
-          <Col lg={3} xs={6}>
+          <Col lg={3} md={4} xs={6}>
             <h5 className="footer__menu-title mb--20">CONNECT WITH US</h5>
             <FaceBookText iconwidthsmall={1} iconwidth={1} />
             <TwitterText iconwidth={1} iconwidthsmall={1}/>
             <YouTubeText iconwidth={1} iconwidthsmall={1}/>
             <InstagramText iconwidth={1} iconwidthsmall={1}/>
           </Col>
-          <Col lg={3} xs={6}>
+          <Col lg={3} md={4} xs={6}>
             <h5 className="footer__menu-title mb--20">CONTACT INFO</h5>
             <LocationAddress
               iconwidth={1}

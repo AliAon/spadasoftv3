@@ -5,14 +5,14 @@ import CardEight from "../../common/cards/CardEight";
 const About = (props) => {
   return (
     <Row className="gx-3 removespacing mb--30 align-items-center section-about ">
-      <Col lg={6} className="position-relative">
+      <Col lg={6} md={6} className="position-relative">
         <img src="./images/Image (6).png" className="section-about__img " />
         <img
           src="./images/Group 1274.png "
           className="position-absolute w-25 section-about__logo"
         />
       </Col>
-      <Col lg={6}>
+      <Col lg={6} md={6}>
         <CardEight
           subtitle="OUR APPROACH"
           title="Get Solution For Your Business"

@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Container } from "react-bootstrap";
+import BackToTopBtn from "../common/BackToTopBtn";
 import Footer from "../common/Footer";
 import Header from "../common/Header";
 import HeaderMobile from "../common/HeaderMobile";
@@ -27,9 +28,8 @@ const Home = () => {
       {/* <Container fluid className="position-relative"> */}
          {/* <img src="./images/dot-pattern (1).png" className="position-absolute dot-pattern__image"/> */}
          {/* <img src="./images/dot-pattern.png" className="position-absolute dot-pattern__image-another"/> */}
-
         {/* </Container> */}
-        <Container>
+         <Container>
           <OurServices />
         </Container>
         <Container>
@@ -40,13 +40,14 @@ const Home = () => {
                 <Testimonials/>
             </Container>
         </Container>
-        <Container>
+            <Container>
             <Brand/>
         </Container>
-        <Container>
+          <Container>
             <Cta/>
         </Container>
       <Footer />
+     <BackToTopBtn/>
     </Fragment>
   );
 };

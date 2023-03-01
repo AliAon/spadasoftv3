@@ -3,6 +3,8 @@ import { FaArrowRight, FaRegCheckCircle,FaVideo } from "react-icons/fa";
 import CardEight from "../../common/cards/CardEight";
 import { FaCheckCircle,FaPaperPlane } from "react-icons/fa";
 import {GiRoundBottomFlask} from "react-icons/gi"
+import { Fade } from "react-awesome-reveal";
+
 import CardThree from '../../common/cards/CardThree'
 const OurServices = (props) => {
   return (
@@ -15,7 +17,7 @@ const OurServices = (props) => {
           description2="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted."
         />
         <Row>
-          <Col lg={6}>
+          <Col lg={6} md={6}>
             <ul className="footer__menu-lnks">
               <li className="pb--15">
                 <FaRegCheckCircle color="#544424" size={15} />
@@ -37,7 +39,7 @@ const OurServices = (props) => {
               </li>
             </ul>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} md={6}>
             <ul className="footer__menu-lnks">
               <li className="pb--15">
                 <FaRegCheckCircle color="#544424" size={15} />
@@ -62,16 +64,19 @@ const OurServices = (props) => {
         </Row>
         <Row>
           <Col>
+          <Fade direction="up" duration={1500} triggerOnce={true}>
           <button className="btn-default">
                Get Free Quotes
           </button>
+          </Fade>
           </Col>
         </Row>
       </Col>
 
       <Col lg={7}>
-        <Row className="gy-0 gx-0">
-          <Col lg={6}>
+      <Fade direction="right" fraction={0} duration={1000} triggerOnce={true}>
+        <Row className="gy-3 gx-2">
+          <Col lg={{order:1}} md={{order:1}} className="col-lg-6 col-md-6 col-12"  xs={{order:1}}>
           <CardThree
             boxshadow='noboxshadow'
             title="Mobile App"
@@ -81,7 +86,7 @@ const OurServices = (props) => {
             icon={<GiRoundBottomFlask size={40} color="#fff"/>}
           />
           </Col>
-          <Col lg={6}>
+          <Col lg={{order:2}} md={{order:2}} className="col-lg-6 col-md-6 col-12" xs={{order:2}}>
           <CardThree
             boxshadow='noboxshadow'
             title="Web Development"
@@ -89,7 +94,7 @@ const OurServices = (props) => {
             icon={<GiRoundBottomFlask size={40}/>}
           />
           </Col>
-          <Col lg={6}>
+          <Col lg={{order:3}} md={{order:3}} className="col-lg-6 col-md-6 col-12" xs={{order:4}}>
           <CardThree
             title="Videography"
             boxshadow='noboxshadow'
@@ -97,7 +102,7 @@ const OurServices = (props) => {
             icon={<FaVideo size={40}/>}
           />
           </Col>
-          <Col lg={6}>
+          <Col lg={{order:4}} md={{order:4}} className="col-lg-6 col-md-6 col-12" xs={{order:3}}>
           <CardThree
            background="gradient-back"
            colorwhite="color-white"
@@ -108,6 +113,7 @@ const OurServices = (props) => {
           />
           </Col>
         </Row>
+        </Fade>
       </Col>
       
     </Row>
