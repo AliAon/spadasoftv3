@@ -4,38 +4,7 @@ import CardTwo from "../../common/cards/CardTwo";
 import SectionTitle from "../../common/SectionTitle";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const DummyTeamData = [
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-  {
-    name: "Jonas Adam",
-    picture_path: "images/team/Image (16).png",
-    position: "Co-Founder & Developer",
-  },
-];
+import {DummyTeamData} from '../../data/TeamData'
 const OurTeam = () => {
   const responsive = {
     superLargeDesktop: {
@@ -62,7 +31,7 @@ const OurTeam = () => {
         <CardTwo
           name={el.name}
           path={el.picture_path}
-          position={el.picture_path}
+          position={el.position}
         />
       </div>
     );
@@ -76,8 +45,6 @@ const OurTeam = () => {
       />
       <Carousel
         itemClass="crouselItem"
-        autoPlaySpeed={2000}
-        autoPlay={true}
         showDots={true}
         containerClass="containerCrousel"
         responsive={responsive}

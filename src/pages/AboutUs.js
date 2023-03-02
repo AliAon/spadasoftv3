@@ -17,45 +17,34 @@ import AboutDetails from "../components/About/AboutDetails";
 import WhoWeAre from "../components/About/WhoWeAre";
 import AchievementsCounter from "../components/About/AchievementsCounter";
 import OurTeam from "../components/About/OurTeam";
+import TestimonailQuote from "../components/About/TestimonailQuote";
 const AboutUs = () => {
   return (
     <Fragment>
       <Header />
       <HeaderMobile />
-      <HeaderCTA />
+      <HeaderCTA
+        title="About Us"
+        description="We are creative digital websites"
+      />
       <Container>
-        <AboutDetails />
+        <AboutDetails
+          title=" We Are Passionate About Your Online Success."
+        />
       </Container>
       <Container fluid className="section__WhoWeAre">
         <Container>
           <WhoWeAre />
         </Container>
       </Container>
-   
+
       <Container>
-        <AchievementsCounter/>
+        <AchievementsCounter />
+        <TestimonailQuote/>
       </Container>
       <Container fluid className="section__WhoWeAre">
-      <Container>
-        <OurTeam/>
-      </Container>
-      </Container>
-
-      {/* <Container>
-        <Process />
-      </Container>
-      <Container>
-        <About />
-      </Container>
-      <Container>
-        <OurServices />
-      </Container>
-      <Container>
-        <FeaturedWork />
-      </Container>
-      <Container fluid className="section__testimonial">
         <Container>
-          <Testimonials />
+          <OurTeam />
         </Container>
       </Container>
       <Container>
@@ -63,7 +52,7 @@ const AboutUs = () => {
       </Container>
       <Container className="cta-container">
         <Cta />
-      </Container> */}
+      </Container>
       <Footer />
       <BackToTopBtn />
     </Fragment>

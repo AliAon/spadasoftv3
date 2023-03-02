@@ -10,7 +10,7 @@ const HeaderCTA = (props) => {
           <Col>
             <Fade direction="up" duration={1500} triggerOnce={true}>
               <h2 className="section-cta__title">
-                About Us
+               {props.title}
               </h2>
             </Fade>
             <Fade
@@ -20,7 +20,7 @@ const HeaderCTA = (props) => {
               triggerOnce={true}
             >
               <p className="section-cta__description">
-              We are creative digital websites
+              {props.description}
               </p>
             </Fade>
           </Col>

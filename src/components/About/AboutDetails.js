@@ -4,7 +4,7 @@ const AboutDetails = (props) => {
     <Row className="section__about-details removespacing">
       <Col lg={6} md={6}>
         <h2 className="cardEight__title pb--20">
-          We Are Passionate About Your Online Success.
+          {props.title}
         </h2>
         <p className="cardEight__description">
           Our dedicated team of ambitious and hardworking people will become
