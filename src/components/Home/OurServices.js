@@ -83,24 +83,24 @@ const OurServices = (props) => {
             title="Mobile App"
             background="gradient-back"
             colorwhite="color-white"
-            description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-            icon={<GiRoundBottomFlask size={40} color="#fff"/>}
+            description="Save time and energy with our in-house professionals so you can focus on what matters on your.​"
+            icon={<GiRoundBottomFlask size={40} color="#fff" className='features-icons'/>}
           />
           </Col>
           <Col lg={{order:2}} md={{order:2}} className="col-lg-6 col-md-6 col-12" xs={{order:2}}>
           <CardThree
             boxshadow='noboxshadow'
             title="Web Development"
-            description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-            icon={<GiRoundBottomFlask size={40}/>}
+            description="Save time and energy with our in-house professionals so you can focus on what matters on your.​"
+            icon={<GiRoundBottomFlask size={40} className='features-icons'/>}
           />
           </Col>
           <Col lg={{order:3}} md={{order:3}} className="col-lg-6 col-md-6 col-12" xs={{order:4}}>
           <CardThree
             title="Videography"
             boxshadow='noboxshadow'
-            description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-            icon={<FaVideo size={40}/>}
+            description="Save time and energy with our in-house professionals so you can focus on what matters on.​"
+            icon={<FaVideo size={40} className='features-icons'/>}
           />
           </Col>
           <Col lg={{order:4}} md={{order:4}} className="col-lg-6 col-md-6 col-12" xs={{order:3}}>
@@ -110,7 +110,7 @@ const OurServices = (props) => {
             title="Social Campaign"
             boxshadow='noboxshadow'
             description="A small river named Duden flows by their place and supplies it with the necessary regelialia.​"
-            icon={<FaPaperPlane size={40} color="#fff"/>}
+            icon={<FaPaperPlane size={40} color="#fff" className='features-icons'/>}
           />
           </Col>
         </Row>

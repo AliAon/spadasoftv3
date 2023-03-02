@@ -9,6 +9,13 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.about-details__ovel{
+   left: -100px;
+   bottom: 0;
+}   
+.strong-text{
+   color: var(--Default);
+}
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   
 }
@@ -82,4 +89,19 @@
    font-family: Montserrat;
    color: #9CA5B1;
 
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .quotetitle{
+      font-size: 22px;   
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .quotetitle{
+      font-size: 22px;   
+   }
+}
+@media only screen and (max-width: 479px) {
+   .quotetitle{
+      font-size: 22px;   
+   }
 }

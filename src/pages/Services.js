@@ -9,6 +9,7 @@ import Brand from "../components/Home/Brand";
 import Cta from "../components/Home/Cta";
 
 import AboutDetails from "../components/About/AboutDetails";
+import ServicesGrid from "../components/Services/ServicesGrid";
 
 const Services = () => {
   return (
@@ -21,11 +22,16 @@ const Services = () => {
       />
       <Container>
         <AboutDetails
-          title=" Build comprehensive, and purpose-driven identities and experiences."
-          description1="With more than 10-years experience, our team plan and create strategy every single detail to make sure to bring you the best and effective solution for your business."
-          description2="Brand identities, digital platforms ecommerce flagships, and branded Capabilities content that bring culture and commerce together."
-          strong="VIEW STUDY CASES"
+          title="Build comprehensive, and purpose-driven identities and experiences."
+          description2={`Brand identities, digital platforms ecommerce flagships, and branded Capabilities content that bring culture and commerce together. Brand identities, digital platforms ecommerce flagships, and branded Capabilities content that bring culture and commerce together.`}
+          text="VIEW STUDY CASES
+          "
         />
+      </Container>
+      <Container fluid className="section__testimonial">
+      <Container>
+        <ServicesGrid/>
+      </Container>
       </Container>
       <Container>
         <Brand />

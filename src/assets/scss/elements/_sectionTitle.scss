@@ -7,15 +7,18 @@
      
     }
     &__subtitle {
-        font-size: var(--font-body-3);
+        font-size: var(--font-body-2);
         color: #9ca5b1;
         line-height: 1.5;
         font-family: Montserrat;
+        text-transform: uppercase;
     }
     &__description {
         color: #9ca5b1;
         font-size: var(--font-body-3);
         font-family: Montserrat;
+        text-transform: uppercase;
+
     }
 }
 

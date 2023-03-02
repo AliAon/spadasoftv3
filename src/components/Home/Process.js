@@ -43,21 +43,21 @@ const Process = (props) => {
             <CardThree
               title="Strategic & Planning"
               description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-              icon={<FaPaperPlane size={30} />}
+              icon={<FaPaperPlane size={30}  className='features-icons'/>}
             />
           </div>
           <div className="crousel-card">
             <CardThree
               title="Design & Development"
               description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-              icon={<HiDesktopComputer size={30} />}
+              icon={<HiDesktopComputer size={30}  className='features-icons'/>}
             />
           </div>
           <div className="crousel-card">
             <CardThree
               title="Strategic & Planning"
               description="Save time and energy with our in-house professionals so you can focus on what matters on your business.​"
-              icon={<FiTarget size={30} />}
+              icon={<FiTarget size={30}  className='features-icons'/>}
             />
           </div>
         </Carousel>

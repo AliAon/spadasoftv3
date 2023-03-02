@@ -25,10 +25,6 @@ const Home = () => {
       <Container>
         <About />
       </Container>
-      {/* <Container fluid className="position-relative"> */}
-         {/* <img src="./images/dot-pattern (1).png" className="position-absolute dot-pattern__image"/> */}
-         {/* <img src="./images/dot-pattern.png" className="position-absolute dot-pattern__image-another"/> */}
-        {/* </Container> */}
          <Container>
           <OurServices />
         </Container>

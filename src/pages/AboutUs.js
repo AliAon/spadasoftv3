@@ -30,6 +30,12 @@ const AboutUs = () => {
       <Container>
         <AboutDetails
           title=" We Are Passionate About Your Online Success."
+          description1=" Our dedicated team of ambitious and hardworking people will become
+          your trusted colleagues, who’s passion is to make your business or
+          project a success! We aren’t happy with our creation until you are. We
+          are true to ourselves, and commit to always perform at our best."
+          text="WE AREN’T HAPPY WITH OUR CREATION UNTIL YOU ARE. WE TAKE TREMENDOUS CARE OF YOUR NEEDS."
+          description2="With more than 10-years experience, our team plan and create strategy every single detail to make sure to bring you the best and effective solution for your business. Brand identities, digital platforms ecommerce flagships, and branded Capabilities content that bring culture and commerce together."
         />
       </Container>
       <Container fluid className="section__WhoWeAre">
@@ -40,7 +46,7 @@ const AboutUs = () => {
 
       <Container>
         <AchievementsCounter />
-        <TestimonailQuote/>
+        <TestimonailQuote />
       </Container>
       <Container fluid className="section__WhoWeAre">
         <Container>

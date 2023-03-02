@@ -190,6 +190,24 @@ Testimonials
 .section__testimonial{
    background: #EEF5E8;
 }
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .testimonials-section{
+      padding-top: 40px;
+      padding-bottom: 20px;
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .testimonials-section{
+      padding-top: 40px;
+      padding-bottom: 20px;
+   }
+}
+@media only screen and (max-width: 479px) {
+   .testimonials-section{
+      padding-top: 40px;
+      padding-bottom: 20px;
+   }
+}
 /*-------------------------
 CTA
 -------------------------*/
