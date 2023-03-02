@@ -145,8 +145,24 @@ input::placeholder {
    margin: 5px;
 }
 .containerCrousel{
-   padding-top: 3rem;
+   padding-top: 1rem;
    padding-left: 1rem;
    padding-right: 1rem;
    padding-bottom: 1rem;
+}
+@media only screen and (max-width: 479px) {
+   .containerCrousel{
+      padding-top: 1rem;
+
+   }
+}
+.strong-text{
+   font-family: Montserrat;
+   color: #1C182B;
+   line-height: 26px;
+   letter-spacing: 1.5px;
+
+}
+.bg-color-change{
+   background-color: #EEF5E8!important;
 }

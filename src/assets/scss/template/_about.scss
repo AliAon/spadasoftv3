@@ -1,0 +1,68 @@
+/*-------------------------
+   About 
+-------------------------*/
+
+/*-------------------------
+   About Detail 
+-------------------------*/
+.section__about-details{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+
+}
+@media only screen and (max-width: 479px) {
+
+}
+/*-------------------------
+   Who We Are 
+-------------------------*/
+.section__WhoWeAre{
+   background-color: #EEF5E8;
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+}
+.big-green-circle{
+   left: -50px;
+   bottom: 120px;
+}
+.small-green-circle{
+   left: -80px;
+   bottom: 0;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+
+}
+@media only screen and (max-width: 479px) {
+
+}
+
+/*-------------------------
+   Achievements 
+-------------------------*/
+.section__AchievementsCounter{
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+
+}
+@media only screen and (max-width: 479px) {
+   .section__AchievementsCounter{
+      padding-top: 20px;
+      padding-bottom: 20px;
+   
+   }
+}

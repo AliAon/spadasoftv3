@@ -43,7 +43,7 @@ const Home = () => {
             <Container>
             <Brand/>
         </Container>
-          <Container>
+          <Container className="cta-container">
             <Cta/>
         </Container>
       <Footer />

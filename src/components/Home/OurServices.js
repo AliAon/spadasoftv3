@@ -4,6 +4,7 @@ import CardEight from "../../common/cards/CardEight";
 import { FaCheckCircle,FaPaperPlane } from "react-icons/fa";
 import {GiRoundBottomFlask} from "react-icons/gi"
 import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 import CardThree from '../../common/cards/CardThree'
 const OurServices = (props) => {

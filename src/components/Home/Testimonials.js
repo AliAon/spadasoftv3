@@ -29,7 +29,7 @@ const Testimonials = (props) => {
 
   return (
     <Fragment>
-      <section className="pt--40 pb--60 removespacing">
+      <section className="testimonials-section removespacing">
         <SectionTitle
           title="
         What People Says About Us

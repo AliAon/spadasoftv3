@@ -208,7 +208,12 @@
 .plr--30 {
     padding: 0 30px;
 }
-
+.p--10{
+    padding: 10px!important;
+}
+.p--0{
+    padding: 0px!important;
+}
 // @media #{$smlg-device} {
 //     .pt_lg--200 {
 //         padding-top: 200px;

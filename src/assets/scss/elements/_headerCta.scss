@@ -1,0 +1,59 @@
+.section-cta {
+    background-image: url("../../../../public/images/card/hero-bg-home1.png");
+    padding-top: 10rem;
+    padding-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10rem;
+    &__developer-image {
+       margin-left: -50px;
+       margin-right: 10px;
+    }
+    &__title {
+       font-family: Montserrat-Light;
+       font-size: var(--h1);
+       text-align: center;
+       padding-top: 1rem;
+       color: #ffffff;
+    }
+    &__description {
+       font-family: Montserrat;
+       font-size: var(--font-body-1);
+       margin-bottom: 20px;
+       color: #ffffff;
+       text-align: center;
+
+    }
+    &__img {
+       width: 100%;
+    }
+ }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .section-cta {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        &__title {
+            font-size: var(--h2);
+         }
+    }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+    .section-cta {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        &__title {
+            font-size: var(--h2);
+         }
+    }
+}
+@media only screen and (max-width: 479px) {
+    .section-cta {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        &__title {
+            font-size: var(--h2);
+         }
+    }
+
+}

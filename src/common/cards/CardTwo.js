@@ -1,21 +1,15 @@
 import {FaFacebook,FaTwitter} from 'react-icons/fa'
-const CardTwo = () => {
+const CardTwo = (props) => {
   return (
-    <div
-      style={{
-        width: "310px",
-      }}
-    >
-      <div className="cardTwo">
-        <img className='cardTwo__width' src="./images/card/Blog Image.png" />
-        <h4 className="cardTwo__title">Jonas Adam</h4>
-        <p className="cardTwo__description">Co-Founder & Developer</p>
-        <center>
-            <span><FaTwitter size={16}/></span>
-        <span><FaFacebook  size={16}/></span>
-        </center>
-      </div>
-    </div>
+    <div className="cardTwo">
+    <img className='cardTwo__width' src={props.path} />
+    <h4 className="cardTwo__title">{props.name}</h4>
+    <p className="cardTwo__description">{props.position}</p>
+    <center>
+        <span><FaTwitter size={16}/></span>
+    <span><FaFacebook  size={16}/></span>
+    </center>
+  </div>
   );
 };
 export default CardTwo;

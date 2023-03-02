@@ -21,3 +21,9 @@
         font-size: var(--font-body-3);
     }
 }
+@media only screen and (max-width: 479px) {
+    .cardSix {
+        padding:20px;
+
+    }
+}

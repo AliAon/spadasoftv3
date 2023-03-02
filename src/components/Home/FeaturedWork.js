@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 const FeaturedWork = (props) => {
   return (
     <Fragment>
-      <section className="pt--40 pb--60 removespacing">
+      <section className="featured-section removespacing">
         <SectionTitle
           title="
     Featured Works

@@ -72,7 +72,7 @@ STYLESHEET INDEXING
 @import "elements/primary-menu-mobile";
 @import "elements/emailaddress";
 @import "elements/phonenumber";
-// @import "elements/getQuoteFrom";
+@import "elements/headerCta";
 @import "elements/sectionTitle";
 // @import "elements/map";
 @import "elements/backToTop";
@@ -90,6 +90,7 @@ STYLESHEET INDEXING
 3. Template Styles
 =========================================================================*/
 @import "template/home";
+@import "template/about";
 
 
 /*=======================================================================
