@@ -32,3 +32,12 @@ input:focus,input:active,input:focus-visible,input:focus-within{
 .css-5lsacj-control:hover {
   border-color: none!important;
 }
+input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(0 0 0 / 10%)!important;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0 0.1rem rgb(0 0 0 / 10%)!important;
+  border: none!important;
+  outline: none!important;
+}

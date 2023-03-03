@@ -39,7 +39,7 @@ const SelectedWork = () => {
     <Fragment>
       <section className="SelectedWork-section ">
         <Row className="SelectedWork-row removespacing">
-          <h2 className="SelectedWork__title ">Selected Works</h2>
+          <h2 className="SelectedWork__title ">Popular Topics</h2>
           <Row className="removespacing">
             <Col>
               <Carousel
@@ -53,35 +53,35 @@ const SelectedWork = () => {
                   data-cateid="0"
                   onClick={showTabDatahandler}
                 >
-                  All Category
+                  All Topics
                   </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="1"
                   onClick={showTabDatahandler}
                 >
-                  Development
+                  Adventure
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="2"
                   onClick={showTabDatahandler}
                 >
-                  Graphic Design
+                  Travel
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="3"
                   onClick={showTabDatahandler}
                 >
-                  Motion Effects
+                  Fashion
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="4"
                   onClick={showTabDatahandler}
                 >
-                  UI / UX Design
+                  Technology
                 </li>
                 <li
                   className="SelectedWork_ul__li"

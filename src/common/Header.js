@@ -7,13 +7,13 @@ const Header = () => {
     <header className="desktop-header fixed-top">
       <Container fluid="sm">
         <Row className="d-flex align-items-baseline">
-          <Col lg={3}>
+          <Col lg={2}>
             <LogoTrans />
           </Col>
           <Col>
             <MainMenu />
           </Col>
-          <Col lg={3} className="text-right">
+          <Col lg={2} className="text-right">
             <Button className="desktop-header__hop-on-call">Hop on Call</Button>
           </Col>
         </Row>
