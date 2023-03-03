@@ -1,0 +1,80 @@
+/*-------------------------
+   Portfolio 
+-------------------------*/
+.portfolio-bg{
+    background-image: url('../../../../public/images/Vector\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-------------------------
+   Selected Work 
+-------------------------*/
+.SelectedWork-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SelectedWork__title{
+    font-size: 36px;
+    line-height: 1.5;
+    color: #1C182B;
+    padding-bottom: 1rem;
+    font-family: Montserrat-SemiBold;
+}
+.SelectedWork_ul{
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+    display: flex;
+    &__li{
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #A2A9B0;
+    }
+    &__li:hover{
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #1AB700;
+        cursor: pointer;
+    }
+    &_item{
+        width: 180px!important;
+        text-align: left!important;
+
+    }
+    
+}
+.active{
+    color: #1AB700;
+    border-bottom: 2px solid #1AB700;
+    padding-bottom: 5px;
+    font-family: Montserrat;
+    width: fit-content;
+
+}
+.SelectedWork-category-section{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .SelectedWork__title{
+        font-size: 26px;
+    }
+ }
+ @media only screen and (min-width: 479px) and (max-width: 576px) {
+    .SelectedWork__title{
+        font-size: 26px;
+    }
+ }
+ @media only screen and (max-width: 479px) {
+    .SelectedWork__title{
+    font-size: 26px;
+    }
+
+ }
+ 

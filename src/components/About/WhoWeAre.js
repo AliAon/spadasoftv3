@@ -32,7 +32,7 @@ const WhoWeAre = (props) => {
         <Row className="gy-2 gx-5 pt--20">
           <Col lg={6} md={6} sm={6} >
             <div className={`cardThree p--0 noboxshadow bg-color-change`}>
-              <RiTeamLine size={30}  />
+              <RiTeamLine size={30}  className='features-icons'/>
               <h4 className={`cardThree__title`}>Super Creative</h4>
               <p className={`cardThree__description`}>
               Flexible drag & drop editor, you can reach infinite design possibilities.
@@ -41,7 +41,7 @@ const WhoWeAre = (props) => {
           </Col>
           <Col lg={6} md={6} sm={6}>
             <div className={`cardThree p--0 noboxshadow bg-color-change`}>
-              <FaGlobe size={30} />
+              <FaGlobe size={30}  className='features-icons'/>
               <h4 className={`cardThree__title`}>World Class Team</h4>
               <p className={`cardThree__description`}>
               Flexible drag & drop editor, you can reach infinite design possibilities.
@@ -50,7 +50,7 @@ const WhoWeAre = (props) => {
           </Col>
           <Col lg={6} md={6} sm={6}>
             <div className={`cardThree p--0 noboxshadow bg-color-change`}>
-              <RiTeamLine size={30} />
+              <RiTeamLine size={30}  className='features-icons'/>
               <h4 className={`cardThree__title`}>Super Creative</h4>
               <p className={`cardThree__description`}>
               Flexible drag & drop editor, you can reach infinite design possibilities.
@@ -59,7 +59,7 @@ const WhoWeAre = (props) => {
           </Col>
           <Col lg={6} md={6} sm={6}>
             <div className={`cardThree p--0 noboxshadow bg-color-change`}>
-              <FaGlobe size={30} />
+              <FaGlobe size={30}  className='features-icons'/>
               <h4 className={`cardThree__title`}>World Class Team</h4>
               <p className={`cardThree__description`}>
               Flexible drag & drop editor, you can reach infinite design possibilities.

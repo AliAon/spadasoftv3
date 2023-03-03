@@ -7,24 +7,29 @@ import HeaderCTA from "../common/HeaderCTA";
 import HeaderMobile from "../common/HeaderMobile";
 import Brand from "../components/Home/Brand";
 import Cta from "../components/Home/Cta";
-
 import AboutDetails from "../components/About/AboutDetails";
 import ServicesGrid from "../components/Services/ServicesGrid";
+import SelectedWork from "../components/Portfolio/SelectedWork";
 
 const Portfolio = () => {
   return (
     <Fragment>
+      <div className="portfolio-bg">
       <Header />
       <HeaderMobile />
       <HeaderCTA
         title="Portfolio"
         description="Our works speak louder than words"
       />
+      <Container>
+      <SelectedWork/>
+      </Container>
       <Container className="cta-container">
         <Cta />
       </Container>
       <Footer />
       <BackToTopBtn />
+      </div>
     </Fragment>
   );
 };
