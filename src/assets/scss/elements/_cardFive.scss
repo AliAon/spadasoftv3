@@ -30,5 +30,23 @@
         line-height: 20px;
         font-size: var(--font-body-3);
     }
+    &__category{
+        border-radius: 8px;
+        top: 5px;
+        right: 5px;
+        font-size: 10px;
+        display: flex;
+        border: 0px;
+        padding: 7px;
+      
+        list-style: none;
+        & li{
+            margin-right: 10px;
+        }
+        & li button{
+            background: #000000d6;
+            color: white;
+        }
+    }
     
 }

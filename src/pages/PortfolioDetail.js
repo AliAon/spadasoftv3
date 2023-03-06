@@ -5,26 +5,24 @@ import Footer from "../common/Footer";
 import Header from "../common/Header";
 import HeaderCTA from "../common/HeaderCTA";
 import HeaderMobile from "../common/HeaderMobile";
-import Brand from "../components/Home/Brand";
+import BlogDetails from "../components/Blog/BlogDetails";
 import Cta from "../components/Home/Cta";
-import AboutDetails from "../components/About/AboutDetails";
-import ServicesGrid from "../components/Services/ServicesGrid";
-import SelectedWork from "../components/Portfolio/SelectedWork";
-import BlogsTabGrid from "../components/Blog/BlogsTabGrid";
+import PortfolioDetails from "../components/Portfolio/PortfolioDetails";
 
-const Blog = () => {
+const PortfolioDetail = () => {
   return (
     <Fragment>
-      <div className="portfolio-bg">
+      <div>
       <Header />
       <HeaderMobile />
       <HeaderCTA
-        title="Blog"
+        title="Portfolio Detail Page"
         description="Rebranding awesome company"
       />
       <Container>
-      <BlogsTabGrid/>
+        <PortfolioDetails/>
       </Container>
+  
       <Container className="cta-container">
         <Cta />
       </Container>
@@ -34,4 +32,4 @@ const Blog = () => {
     </Fragment>
   );
 };
-export default Blog;
+export default PortfolioDetail;

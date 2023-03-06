@@ -17,7 +17,7 @@ const Footer = () => {
           <Col lg={3}>
             <Row className=" footer__logo">
               <Col lg={4}>
-                <img src="./images/logo/Logo (1).png" />
+                <img src="http://localhost:3000/images/logo/Logo (1).png" />
               </Col>
             </Row>
             <p className="footer__about-text">

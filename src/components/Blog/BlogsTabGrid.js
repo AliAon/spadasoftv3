@@ -5,7 +5,8 @@ import AllCategoryTabContent from "../../common/AllCategoryTabContent";
 import DevelopmentTabContent from "../../common/DevelopmentTabContent";
 import ReadMoreBlock from "../../common/ReadMoreBlock";
 import TabView from "../../common/TabView";
-const SelectedWork = () => {
+import AllBlogsGridTabContent from "./AllBlogsGridTabContent";
+const BlogsTabGrid = () => {
   const [tabindex, settabindex] = useState(0);
   const responsive = {
     superLargeDesktop: {
@@ -53,35 +54,35 @@ const SelectedWork = () => {
                   data-cateid="0"
                   onClick={showTabDatahandler}
                 >
-                  All Categories
+                  All Topics
                   </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="1"
                   onClick={showTabDatahandler}
                 >
-                  Development
+                  Adventure
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="2"
                   onClick={showTabDatahandler}
                 >
-                  Graphic Design
+                  Travel
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="3"
                   onClick={showTabDatahandler}
                 >
-                  Motion
+                  Fashion
                 </li>
                 <li
                   className="SelectedWork_ul__li"
                   data-cateid="4"
                   onClick={showTabDatahandler}
                 >
-                  UI / UX
+                  Technology
                 </li>
                 <li
                   className="SelectedWork_ul__li"
@@ -97,28 +98,28 @@ const SelectedWork = () => {
             index={tabindex}
             tabs={[
               {
-                name: "allCategories",
-                content: <AllCategoryTabContent />,
+                name: "alltopics",
+                content: <AllBlogsGridTabContent/>,
               },
               {
-                name: "development",
-                content: <DevelopmentTabContent />,
+                name: "adventure",
+                content: <AllBlogsGridTabContent />,
               },
               {
-                name: "graphicdesign",
-                content: <DevelopmentTabContent />,
+                name: "travel",
+                content: <AllBlogsGridTabContent />,
               },
               {
-                name: "motion",
-                content: <DevelopmentTabContent />,
+                name: "fashion",
+                content: <AllBlogsGridTabContent />,
               },
               {
-                name: "ui/ux",
-                content: <DevelopmentTabContent />,
+                name: "technology",
+                content: <AllBlogsGridTabContent />,
               },
               {
                 name: "branding",
-                content: <DevelopmentTabContent />,
+                content: <AllBlogsGridTabContent />,
               }
             ]}
           />
@@ -127,4 +128,4 @@ const SelectedWork = () => {
     </Fragment>
   );
 };
-export default SelectedWork;
+export default BlogsTabGrid;

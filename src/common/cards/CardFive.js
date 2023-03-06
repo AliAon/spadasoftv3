@@ -1,33 +1,43 @@
 import { Col, Row } from "react-bootstrap";
+import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
+const CardFive = (props) => {
+  const { title, excerpt, category, author, featured_image } = props;
+  const categorylist = category.map((el) => {
+    return (
+      <li>
+        <button>{el}</button>
+      </li>
+    );
+  });
+  console.log(categorylist);
 
-const CardFive = () => {
   return (
-    <div
-      style={{
-        width: "310px",
-      }}
-    >
-      <div className="cardFive ">
-        <img src="./images/card/Blog Image.png" />
-        <p className="cardFive__date">08.08.2021</p>
-        <h4 className="cardFive__title">
-          Dream destinations to visit this year in Paris
-        </h4>
-        <p className="cardFive__description">
-          Progressively incentivize cooperative systems through technically
-          sound functionalities. The credibly productivate seamless data.
-        </p>
-        <div>
-          <Row>
-            <Col lg={3}>
-              <img src="./images/card/Ellipse4.png" />
-            </Col>
-            <Col lg={9}>
-              <h6 className="cardFive__name">By Jennifer Lawrence</h6>
-              <p className="cardFive__designation">Thinker & Designer</p>
-            </Col>
-          </Row>
-        </div>
+    <div className="cardFive position-relative">
+      <figure className="fig-img">
+        <img src={featured_image} className="w-100" />
+      </figure>
+      <p className="cardFive__date">08.08.2021</p>
+      <Fade direction="up" duration={1000} triggerOnce={true}>
+       <Link to='http://localhost:3000/blog/1'> <h4 className="cardFive__title">{title}</h4></Link>
+      </Fade>
+      <Fade direction="up" duration={1000} delay={300} triggerOnce={true}>
+        <p className="cardFive__description">{excerpt}</p>
+      </Fade>
+
+      <ul className="cardFive__category position-absolute">{categorylist}</ul>
+      <div>
+      <Fade direction="up" duration={1000} delay={500} triggerOnce={true}>
+        <Row>
+          <Col lg={3} xs={3}>
+            <img src={author.picture} />
+          </Col>
+          <Col lg={9} xs={9}>
+            <h6 className="cardFive__name">{author.name}</h6>
+            <p className="cardFive__designation">{author.position}</p>
+          </Col>
+        </Row>
+        </Fade>
       </div>
     </div>
   );
