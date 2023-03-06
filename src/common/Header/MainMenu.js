@@ -9,6 +9,7 @@ const MainMenu = () => {
       <Link to="/portfolio"><li className="primary-nav-link__a">Portfolio</li></Link>
       <Link to="/blog"><li className="primary-nav-link__a">Blog</li></Link>
       <Link to="/our-team"><li className="primary-nav-link__a">Our Team</li></Link>
+      <Link to="/career"><li className="primary-nav-link__a">Career</li></Link>
       <Link to="/contact-us"><li className="primary-nav-link__a">Contact</li></Link>
     </ul>
   );

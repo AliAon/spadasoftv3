@@ -6,6 +6,7 @@ import CardSeven from "../common/cards/CardSeven";
 import CardSix from "../common/cards/CardSix";
 import CardThree from "../common/cards/CardThree";
 import CardTwo from "../common/cards/CardTwo";
+import ProfileCardNine from "../common/cards/ProfileCardNine";
 
 const MainComponent = () => {
   return (
@@ -17,6 +18,7 @@ const MainComponent = () => {
       <CardFive/>
       <CardSix/>
       <CardSeven/>
+      <ProfileCardNine/>
     </Fragment>
   );
 };

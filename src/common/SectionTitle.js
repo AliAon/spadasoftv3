@@ -15,7 +15,7 @@ const SectionTitle = (props) => {
             {props.title}
           </h3>
           </Fade>
-          <center><img src="./images/Rectangle (1).png"/></center>
+          <center><img src="http://localhost:3000/images/Rectangle (1).png"/></center>
         </Col>
       </Row>
     </Fragment>

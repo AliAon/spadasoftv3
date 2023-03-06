@@ -11,6 +11,7 @@ const MobileMainMenu = () => {
       <li><Link to="/our-fleet" className="primary-nav-link-mobile__a">Our Fleet</Link></li>
       <li><Link to="/services" className="primary-nav-link-mobile__a">Services</Link></li>
       <li><Link to="/blog" className="primary-nav-link-mobile__a">Blog</Link></li>
+      <Link to="/career"><li className="primary-nav-link-mobile__a">Career</li></Link>
       <li><Link to="/contact" className="primary-nav-link-mobile__a">Contact</Link></li>
     </ul>
   );

@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 import { Col, Row } from "react-bootstrap";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-
+import {Link} from "react-router-dom"
 const ReadMoreBlock = (props) => {
   return (
     <div className="cardEight ">
@@ -15,10 +15,11 @@ const ReadMoreBlock = (props) => {
       <Fade direction="up" delay={500} duration={1000} triggerOnce={true}>
         <p className="cardEight__subtitle">{props.subtitle}</p>
       </Fade>
-      <button className="btn-default">
+      <Link to="http://localhost:3000/portfolio/1"><button className="btn-default">
         <span className="pr--10">View Work</span>
          <FaArrowRight/>
       </button>
+      </Link>
     </div>
   );
 };

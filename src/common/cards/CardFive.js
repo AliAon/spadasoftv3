@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 const CardFive = (props) => {
   const { title, excerpt, category, author, featured_image } = props;
-  const categorylist = category.map((el) => {
+  const categorylist = category?.map((el) => {
     return (
       <li>
         <button>{el}</button>
@@ -30,11 +30,11 @@ const CardFive = (props) => {
       <Fade direction="up" duration={1000} delay={500} triggerOnce={true}>
         <Row>
           <Col lg={3} xs={3}>
-            <img src={author.picture} />
+            <img src={author?.picture} />
           </Col>
           <Col lg={9} xs={9}>
-            <h6 className="cardFive__name">{author.name}</h6>
-            <p className="cardFive__designation">{author.position}</p>
+            <h6 className="cardFive__name">{author?.name}</h6>
+            <p className="cardFive__designation">{author?.position}</p>
           </Col>
         </Row>
         </Fade>

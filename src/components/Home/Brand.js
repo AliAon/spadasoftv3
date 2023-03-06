@@ -15,19 +15,19 @@ const Brand = (props) => {
         />
         <Row className="removespacing gy-4">
             <Col>
-            <img src="./images/brand/logo-1.png"/>
+            <img src="http://localhost:3000/images/brand/logo-1.png"/>
             </Col>
             <Col>
-            <img src="./images/brand/logo-2.png"/>
+            <img src="http://localhost:3000/images/brand/logo-2.png"/>
             </Col>
             <Col>
-            <img src="./images/brand/logo-3.png"/>
+            <img src="http://localhost:3000/images/brand/logo-3.png"/>
             </Col>
             <Col>
-            <img src="./images/brand/logo-8.png"/>
+            <img src="http://localhost:3000/images/brand/logo-8.png"/>
             </Col>
             <Col>
-            <img src="./images/brand/logo-5.png"/>
+            <img src="http://localhost:3000/images/brand/logo-5.png"/>
             </Col>
 
         </Row>
