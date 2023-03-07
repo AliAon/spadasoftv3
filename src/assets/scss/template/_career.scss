@@ -5,49 +5,164 @@
 /*-------------------------
    Career 
 -------------------------*/
-.featuredprofile__section{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+.featuredprofile__section {
+   padding-top: 4rem;
+   padding-bottom: 4rem;
 }
-.featured-jobs_cards{
+.featured-jobs_cards {
    padding-top: 2rem;
-   &__btn{
+   &__btn {
       text-align: center;
       padding-top: 30px;
       padding-bottom: 30px;
-
    }
 }
 
-.featured_profile__title{
-    font-family: Montserrat-SemiBold;
-    color: #1C182B;
-    font-size: 26px;
-    line-height: 25px;
+.featured_profile__title {
+   font-family: Montserrat-SemiBold;
+   color: #1c182b;
+   font-size: 26px;
+   line-height: 25px;
 }
-.crouselCardItem{
+.crouselCardItem {
    padding: 10px;
-   width: 350px!important;
+   width: 350px !important;
+}
+.jobsearch_section {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   &__form {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      &__input__field_search {
+         border-radius: 30px;
+      }
+   }
+   &_professions {
+      list-style: none;
+      margin-left: 0px;
+      padding-left: 0px;
+      &_active{
+      color:var(--Active-Green-);
+      font-family: Montserrat-SemiBold;
+      }
+   }
+   &_professions li {
+      border: 0.830103px solid rgb(233, 230, 254);
+      border-radius: 41.5051px;
+      float: left;
+      padding-left: 20px;
+      font-size: 14px;
+      width: fit-content;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+   
+   }
+   
+
+}
+.joblist_section {
+   padding-bottom: 2rem;
+}
+.joblist_section__title{
+   font-family: Montserrat-SemiBold;
+   color: #1C182B;
+   font-size: var(--h3);
+   line-height: 46px;
+
+}
+.joblist_section__job-type-form{
+   float: left;
+}
+.joblist_section__job-type-form::after{
+   content: "";
+   clear: left;
+}
+.clear-fix{
+   border: unset!important;
+   clear: left;
+}
+.joblist_section__label{
+   font-family: Montserrat-Bold;
+   color: #1C182B;
+   font-size: 14px;
+}
+.joblist_section_new-old{
+   font-family: Montserrat-Bold;
+   color: #1C182B;
+   padding-left: 2rem;
+   font-size: 14px;
+
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-   .quotetitle{
-      font-size: 22px;   
+   .quotetitle {
+      font-size: 22px;
    }
 }
 @media only screen and (min-width: 479px) and (max-width: 576px) {
-   .quotetitle{
-      font-size: 22px;   
+   .quotetitle {
+      font-size: 22px;
    }
 }
 @media only screen and (max-width: 479px) {
-   .featured_profile__title{
-   text-align: center;
+   .featured_profile__title {
+      text-align: center;
    }
-   .quotetitle{
-      font-size: 22px;   
+   .quotetitle {
+      font-size: 22px;
    }
-   .portfolioreview__section__custom_view{
-      text-align: center!important;
+   .portfolioreview__section__custom_view {
+      text-align: center !important;
    }
+}
+.form-check-input:checked[type=radio] {
+   background-image: url("../../../../public/images/checkradio.svg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.form-check-input:checked{
+   background-color: unset;
+   border-color: unset;
+}
+/*-------------------------
+   JobCardList 
+-------------------------*/
+.jobcardlist{
+   background: #FFFFFF;
+   box-shadow: 0px 4.15051px 9.96124px rgba(62, 53, 120, 0.07);
+   border-radius: 16.6021px;
+   padding: 10px;
+}
+.job-title{
+   &__name{
+      font-family: Montserrat-Bold;
+      color: #343A40;
+      font-size: var(--font-body-3);
+   }
+   &__compay{
+      font-family: Montserrat-Medium;
+      color:var(--Default);
+      margin: 0px;
+      line-height: 20px;
+      padding-bottom: 5px;
+      font-size: var(--font-body-3);
+   }
+}
+.apply_btn{
+   background-color: #F0F4EC;;
+   border: 0px;
+   padding-top: 7px;
+   font-family: Montserrat;
+   padding-bottom: 7px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #1AB700;
+   border-radius: 20px;
+   transition-property: all;
 }

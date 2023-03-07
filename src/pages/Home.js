@@ -33,7 +33,7 @@ const Home = () => {
         </Container>
         <Container fluid className="section__testimonial">
             <Container>
-                <Testimonials/>
+                <Testimonials title=" What People Says About Us"/>
             </Container>
         </Container>
             <Container>

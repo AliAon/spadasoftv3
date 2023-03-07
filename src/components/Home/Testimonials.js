@@ -7,6 +7,7 @@ import SectionTitle from "../../common/SectionTitle";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const Testimonials = (props) => {
+  const {title}=props
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -31,9 +32,7 @@ const Testimonials = (props) => {
     <Fragment>
       <section className="testimonials-section removespacing">
         <SectionTitle
-          title="
-        What People Says About Us
-             "
+          title={title}
           align="center"
           description="TESTIMONIALS"
         />

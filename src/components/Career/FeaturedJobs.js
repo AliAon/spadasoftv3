@@ -2,10 +2,11 @@ import { Fragment } from "react";
 import JobCard from "../../common/cards/JobCard";
 import { Row, Col } from "react-bootstrap";
 import SectionTitle from "../../common/SectionTitle";
+import {Link} from "react-router-dom";
 const FeaturedJobs = (props) => {
   return (
     <Fragment>
-      <Row className="removespacing">
+      <Row className="removespacing ">
         <Col>
           <SectionTitle title="Featured Jobs" align="center" />
           <center>
@@ -37,7 +38,7 @@ const FeaturedJobs = (props) => {
       </Row>
       <Row className=" featured-jobs_cards__btn removespacing ">
         <Col >
-        <button className="btn-default">View More</button>
+       <Link to="http://localhost:3000/career/jobs"> <button className="btn-default">View More</button></Link>
         </Col>
       </Row>
     </Fragment>

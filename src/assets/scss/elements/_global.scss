@@ -49,6 +49,28 @@
    border-radius: 3px;
    border: 2px solid var(--Default);
 }
+.btn-default-circled {
+   background-color: var(--Default);
+   border: 0px;
+   padding-top: 18px;
+   font-family: Montserrat;
+   padding-bottom: 18px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: white;
+   border-radius: 30px;
+   border: 2px solid var(--Default);
+   transition-property: all;
+}
+.btn-default-circled:hover{
+   background-color: var(--Active-Green-)!important;
+   border-color: var(--Active-Green-)!important;
+}
+.btn-default-circled:active {
+   background-color: var(--Active-Green-)!important;
+   border-color: var(--Active-Green-)!important;
+
+}
 .gradient-back {
    background: linear-gradient(314.91deg, #246930 0%, #1ab700 98.64%) !important;
 }

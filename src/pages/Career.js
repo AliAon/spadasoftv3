@@ -11,6 +11,7 @@ import WhatourCustomerSays from "../components/Career/WhatourCustomerSays";
 import WhyChooseUs from "../components/Career/WhyChooseUs";
 import Brand from "../components/Home/Brand";
 import Cta from "../components/Home/Cta";
+import Testimonials from "../components/Home/Testimonials";
 import CareerGrid from "../components/Portfolio/CareerGrid";
 
 const Career = () => {
@@ -36,7 +37,7 @@ const Career = () => {
         <FeaturedJobs/>
       </Container>
       <Container>
-        <WhatourCustomerSays/>
+        <Testimonials title="What our Customer Says"/>
       </Container>
       <Container>
         <Brand />

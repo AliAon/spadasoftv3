@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
 import PortfolioDetail from "./pages/PortfolioDetail";
 import Career from "./pages/Career";
+import CareerJobs from "./pages/CareerJobs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/blog/:slug" element={<BlogDetail/>} />
       <Route path="/our-team" element={<Team/>} />
       <Route path="/career" element={<Career/>} />
+      <Route path="/career/jobs" element={<CareerJobs/>} />
       <Route path="/contact-us" element={<ContactUs/>} />
       <Route path="/maincomponent" element={<MainComponent />} />
       <Route path="/test" element={<Test/>} />
