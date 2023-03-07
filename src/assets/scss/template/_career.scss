@@ -1,0 +1,53 @@
+/*-------------------------
+   About 
+-------------------------*/
+
+/*-------------------------
+   Career 
+-------------------------*/
+.featuredprofile__section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.featured-jobs_cards{
+   padding-top: 2rem;
+   &__btn{
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+   }
+}
+
+.featured_profile__title{
+    font-family: Montserrat-SemiBold;
+    color: #1C182B;
+    font-size: 26px;
+    line-height: 25px;
+}
+.crouselCardItem{
+   padding: 10px;
+   width: 350px!important;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .quotetitle{
+      font-size: 22px;   
+   }
+}
+@media only screen and (min-width: 479px) and (max-width: 576px) {
+   .quotetitle{
+      font-size: 22px;   
+   }
+}
+@media only screen and (max-width: 479px) {
+   .featured_profile__title{
+   text-align: center;
+   }
+   .quotetitle{
+      font-size: 22px;   
+   }
+   .portfolioreview__section__custom_view{
+      text-align: center!important;
+   }
+}

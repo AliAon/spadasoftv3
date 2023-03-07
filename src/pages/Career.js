@@ -5,7 +5,9 @@ import Footer from "../common/Footer";
 import Header from "../common/Header";
 import HeaderCTA from "../common/HeaderCTA";
 import HeaderMobile from "../common/HeaderMobile";
+import FeaturedJobs from "../components/Career/FeaturedJobs";
 import FeaturedProfile from "../components/Career/FeaturedProfile";
+import WhatourCustomerSays from "../components/Career/WhatourCustomerSays";
 import WhyChooseUs from "../components/Career/WhyChooseUs";
 import Brand from "../components/Home/Brand";
 import Cta from "../components/Home/Cta";
@@ -30,7 +32,12 @@ const Career = () => {
         <FeaturedProfile/>
       </Container>
       </Container>
-
+      <Container>
+        <FeaturedJobs/>
+      </Container>
+      <Container>
+        <WhatourCustomerSays/>
+      </Container>
       <Container>
         <Brand />
       </Container>

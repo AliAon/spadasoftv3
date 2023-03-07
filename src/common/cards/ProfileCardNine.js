@@ -4,15 +4,10 @@ import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 const ProfileCardNine = (props) => {
   return (
-    <div
-      style={{
-        width: "300px",
-      }}
-    >
-      <div className="cardFive position-relative">
+ 
+      <div className="cardFive  align-items-center position-relative">
         <div>
-          <Fade direction="up" duration={1000} delay={500} triggerOnce={true}>
-            <Row>
+            <Row className="removespacing align-items-center">
               <Col lg={3} xs={3} className="position-raltive">
                 <img src="http://localhost:3000/images/blogs/Ellipse 4 (1).png" />
                 <img src="/images/portfolio/dot.png" style={{
@@ -25,8 +20,8 @@ const ProfileCardNine = (props) => {
               <Col lg={9} xs={9}>
                 <h6 className="cardFive__name">David Hutapea</h6>
                 <p className="cardFive__designation">UI/UX Designer</p>
-                <Row>
-                  <Col lg={7}>
+                <Row className="align-baseline">
+                  <Col lg={7} md={7} xs={8}>
                     <div>
                       <span style={{
                         paddingRight:"10px"
@@ -40,14 +35,9 @@ const ProfileCardNine = (props) => {
                       <strong>4.3</strong>
                     </div>
                   </Col>
-                  <Col lg={5}>
+                  <Col lg={5} md={5} xs={4}>
                     <p
-                      style={{
-                        background: "#F4F9F1",
-                        borderRadius: "30.8719px",
-                        textAlign:"center",
-                        padding:"5px",
-                      }}
+                    className="per_hour-rate"
                     >
                       <strong>$84/hr</strong>
                     </p>
@@ -55,10 +45,8 @@ const ProfileCardNine = (props) => {
                 </Row>
               </Col>
             </Row>
-          </Fade>
         </div>
       </div>
-    </div>
   );
 };
 export default ProfileCardNine;

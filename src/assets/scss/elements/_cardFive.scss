@@ -1,4 +1,8 @@
 .cardFive{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(35, 26, 77, 0.16);
+    border-radius: 10px;
+    padding: 18px;
     &__date{
         font-family: Montserrat;
         color: var(--color-date);
@@ -28,6 +32,7 @@
         color: #6C757D;
         margin: 0px;
         line-height: 20px;
+        padding-bottom: 5px;
         font-size: var(--font-body-3);
     }
     &__category{
