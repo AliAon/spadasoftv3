@@ -6,7 +6,7 @@ const MobileLogoTrans=()=>{
     return(
         <div className="logo-img">
             <Link to="/">
-            <img src={`${hostname}images/logo/logo (2).png`} className="logo-trans__img"/>
+            <img src={`${hostname}/images/logo/logo (2).png`} className="logo-trans__img"/>
             </Link>
         </div>
     )
