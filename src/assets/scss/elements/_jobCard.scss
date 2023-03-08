@@ -73,6 +73,13 @@
             margin-right: unset!important;
             margin-left: auto;
         }
+        .jobcard{
+            &__apply-now{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+        }
     }
 
     &__icon_dots{
