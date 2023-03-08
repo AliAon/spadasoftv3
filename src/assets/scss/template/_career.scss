@@ -74,6 +74,14 @@
    line-height: 46px;
 
 }
+@media only screen and (max-width: 479px) {
+   .joblist_section__title{
+    text-align: left;   
+   }
+   .filter_form{
+      float:"right"
+   }
+}
 .joblist_section__job-type-form{
    float: left;
 }
@@ -145,6 +153,12 @@
       color: #343A40;
       font-size: var(--font-body-3);
    }
+   &__salary_count{
+      font-family: Montserrat-Bold;
+      color: #343A40;
+      font-size: var(--font-body-3);
+   }
+   
    &__compay{
       font-family: Montserrat-Medium;
       color:var(--Default);
@@ -152,6 +166,14 @@
       line-height: 20px;
       padding-bottom: 5px;
       font-size: var(--font-body-3);
+   }
+   @media only screen and (max-width: 479px) {
+      &__salary_count{
+         font-size: 11px;
+      }
+      &__compay{
+         font-size: 11px;
+      }
    }
 }
 .apply_btn{
@@ -164,5 +186,38 @@
    padding-right: 20px;
    color: #1AB700;
    border-radius: 20px;
-   transition-property: all;
+   transition-property: background-color,color;
+   transition-duration: .5s;
+
+}
+@media only screen and (max-width: 479px) {
+   .apply_btn{
+      font-size: 12px;
+   }
+
+}
+.apply_btn:hover{
+   background-color: #1AB700;
+   color: #ffffff;
+
+}
+.job-location__famarker{
+   width: 50px;
+   display: block;
+   height: 50px;
+   background-color: #F2F7EE;;
+   text-align: center;
+   padding: 12px;
+   border-radius: 50%;
+}
+@media only screen and (max-width: 479px) {
+   .job-location__famarker {
+      width: 35px;
+      display: block;
+      height: 35px;
+      background-color: #F2F7EE;
+      text-align: center;
+      padding: 5px;
+      border-radius: 50%;
+  }
 }
