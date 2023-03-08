@@ -42,9 +42,9 @@
       list-style: none;
       margin-left: 0px;
       padding-left: 0px;
-      &_active{
-      color:var(--Active-Green-);
-      font-family: Montserrat-SemiBold;
+      &_active {
+         color: var(--Active-Green-);
+         font-family: Montserrat-SemiBold;
       }
    }
    &_professions li {
@@ -59,52 +59,55 @@
       padding-bottom: 5px;
       margin-right: 10px;
       margin-bottom: 10px;
-   
    }
-   
-
 }
 .joblist_section {
    padding-bottom: 2rem;
+   padding-top: 2rem;
 }
-.joblist_section__title{
+.joblist_section__title {
    font-family: Montserrat-SemiBold;
-   color: #1C182B;
+   color: #1c182b;
    font-size: var(--h3);
    line-height: 46px;
-
+}
+.filter_form {
+   float: right;
 }
 @media only screen and (max-width: 479px) {
-   .joblist_section__title{
-    text-align: left;   
+   .joblist_section__title {
+      text-align: left;
+      font-size: 16px;
    }
-   .filter_form{
-      float:"right"
+   .filter_form {
+      float: left;
    }
 }
-.joblist_section__job-type-form{
+.joblist_section__job-type-form {
    float: left;
 }
-.joblist_section__job-type-form::after{
+.joblist_section__job-type-form::after {
    content: "";
    clear: left;
 }
-.clear-fix{
-   border: unset!important;
+.clear-fix {
+   border: unset !important;
    clear: left;
 }
-.joblist_section__label{
+.joblist_section__label {
    font-family: Montserrat-Bold;
-   color: #1C182B;
+   color: #1c182b;
    font-size: 14px;
 }
-.joblist_section_new-old{
+.joblist_section_new-old {
    font-family: Montserrat-Bold;
-   color: #1C182B;
-   padding-left: 2rem;
+   color: #1c182b;
+   padding: 10px;
    font-size: 14px;
-
-
+   border: 0.830103px solid #e6e6e6;
+   border-radius: 48px;
+   margin-right: 15px;
+   padding-left: 15px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -127,97 +130,155 @@
    .portfolioreview__section__custom_view {
       text-align: center !important;
    }
+   .joblist_section_new-old {
+      font-size: 10px;
+   }
 }
-.form-check-input:checked[type=radio] {
+.form-check-input:checked[type="radio"] {
    background-image: url("../../../../public/images/checkradio.svg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
-.form-check-input:checked{
+.form-check-input:checked {
    background-color: unset;
    border-color: unset;
 }
 /*-------------------------
    JobCardList 
 -------------------------*/
-.jobcardlist{
-   background: #FFFFFF;
+.jobcardlist {
+   background: #ffffff;
    box-shadow: 0px 4.15051px 9.96124px rgba(62, 53, 120, 0.07);
    border-radius: 16.6021px;
    padding: 10px;
 }
-.job-title{
-   &__name{
+.job-title {
+   &__name {
       font-family: Montserrat-Bold;
-      color: #343A40;
+      color: #343a40;
       font-size: var(--font-body-3);
    }
-   &__salary_count{
+   &__salary_count {
       font-family: Montserrat-Bold;
-      color: #343A40;
+      color: #343a40;
       font-size: var(--font-body-3);
    }
-   
-   &__compay{
+
+   &__compay {
       font-family: Montserrat-Medium;
-      color:var(--Default);
+      color: var(--Default);
       margin: 0px;
       line-height: 20px;
       padding-bottom: 5px;
       font-size: var(--font-body-3);
    }
    @media only screen and (max-width: 479px) {
-      &__salary_count{
+      &__salary_count {
          font-size: 11px;
       }
-      &__compay{
+      &__compay {
          font-size: 11px;
       }
    }
 }
-.apply_btn{
-   background-color: #F0F4EC;;
+.apply_btn {
+   background-color: #f0f4ec;
    border: 0px;
    padding-top: 7px;
    font-family: Montserrat;
    padding-bottom: 7px;
    padding-left: 20px;
    padding-right: 20px;
-   color: #1AB700;
+   color: #1ab700;
    border-radius: 20px;
-   transition-property: background-color,color;
-   transition-duration: .5s;
-
+   transition-property: background-color, color;
+   transition-duration: 0.5s;
 }
 @media only screen and (max-width: 479px) {
-   .apply_btn{
+   .apply_btn {
       font-size: 12px;
    }
-
 }
-.apply_btn:hover{
-   background-color: #1AB700;
+.apply_btn:hover {
+   background-color: #1ab700;
    color: #ffffff;
-
 }
-.job-location__famarker{
+.job-location__famarker {
    width: 50px;
    display: block;
    height: 50px;
-   background-color: #F2F7EE;;
+   background-color: #f2f7ee;
    text-align: center;
    padding: 12px;
    border-radius: 50%;
+}
+.joblist_section_paginate {
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.page-link {
+   color: #2bc155;
+}
+.active > .page-link,
+.page-link.active {
+   color: #ffffff;
+   background-color: #2bc155;
+   border-color: #2bc155;
 }
 @media only screen and (max-width: 479px) {
    .job-location__famarker {
       width: 35px;
       display: block;
       height: 35px;
-      background-color: #F2F7EE;
+      background-color: #f2f7ee;
       text-align: center;
       padding: 5px;
       border-radius: 50%;
-  }
+   }
+}
+/*-------------------------
+   Upcoming Events 
+-------------------------*/
+.cardevents {
+   background: #ffffff;
+   box-shadow: 0px 5.81072px 18.2623px rgba(143, 134, 196, 0.07);
+   border-radius: 16.6021px;
+}
+.cardevents__type {
+   font-family: Montserrat-Bold;
+   font-size: 12px;
+   color: #1ab700;
+}
+.cardevents__name {
+   font-family: Montserrat-Bold;
+   font-size: 16px;
+   color: #363848;
+   line-height: 26px;
+}
+.cardevents__day{
+   font-family: Montserrat-Bold;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+}
+.cardevents__month{
+   font-family: Montserrat;
+   color: white;
+   font-size: 10px;
+   text-align: center;
+}
+.cardevents_date-box{
+   background: #30C736;
+   border-radius: 49.8062px;
+   padding: 15px;
+   width: 55px;
+   text-align: center;
+   position: absolute;
+   top: 40%;
+}
+@media only screen and (max-width: 479px) {
+   .cardevents_date-box{
+      top: 50%;
+   }
 }

@@ -39,8 +39,8 @@ const FeaturedJobs = (props) => {
       </Row>
       <Row className=" featured-jobs_cards__btn removespacing ">
         <Col >
-        <Link to={`${hostname}/career/jobs`}></Link>
-        <button className="btn-default">View More</button>
+        <Link to={`${hostname}/career/jobs`}>
+        <button className="btn-default">View More</button></Link>
         </Col>
       </Row>
     </Fragment>

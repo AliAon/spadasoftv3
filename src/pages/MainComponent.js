@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import CardEvents from "../common/cards/CardEvents";
 import CardFive from "../common/cards/CardFive";
 import CardFour from "../common/cards/CardFour";
 import CardOne from "../common/cards/CardOne";
@@ -20,6 +21,7 @@ const MainComponent = () => {
       <CardSix/>
       <CardSeven/>
       <ProfileCardNine/>
+      <CardEvents/>
       <JobCard/>
     </Fragment>
   );

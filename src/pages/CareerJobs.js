@@ -9,6 +9,7 @@ import JobSearch from "../components/Career/JobSearch";
 import Brand from "../components/Home/Brand";
 import Cta from "../components/Home/Cta";
 import JobsList from "../components/Career/JobsList";
+import UpCommingEvents from "../components/Career/UpCommingEvents";
 const CareerJobs = () => {
   return (
     <Fragment>
@@ -18,7 +19,9 @@ const CareerJobs = () => {
       <Container>
         <JobSearch />
         <JobsList/>
+        <UpCommingEvents/>
       </Container>
+
       <Container>
         <Brand />
       </Container>
