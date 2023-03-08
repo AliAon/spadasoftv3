@@ -2,6 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
+import { hostname } from "../../config";
 const ProfileCardNine = (props) => {
   return (
  
@@ -9,7 +10,7 @@ const ProfileCardNine = (props) => {
         <div>
             <Row className="removespacing align-items-center">
               <Col lg={3} xs={3} className="position-raltive">
-                <img src="http://localhost:3000/images/blogs/Ellipse 4 (1).png" />
+                <img src={`${hostname}/images/blogs/Ellipse 4 (1).png`} />
                 <img src="/images/portfolio/dot.png" style={{
                         width: "15px",
                         top: "30%",

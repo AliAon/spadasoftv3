@@ -1,6 +1,7 @@
 import { Row,Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaMoneyBill } from "react-icons/fa";
 import {GiMoneyStack} from "react-icons/gi"
+import { hostname } from "../../config";
 
 const JobCardList = (props) => {
   const {title,company,salary,location}=props
@@ -11,7 +12,7 @@ const JobCardList = (props) => {
         <div className="job-title">
           <Row className="removespacing">
             <Col lg={3} md={3} xs={3}>
-              <img src="http://localhost:3000/images/career/companyLogo (1).png" className="w-100" />
+              <img src={`${hostname}/images/career/companyLogo (1).png`} className="w-100" />
             </Col>
             <Col>
               <div>

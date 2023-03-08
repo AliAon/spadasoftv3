@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Col, Form, Row, Button } from "react-bootstrap";
 import InputGroup from "react-bootstrap/InputGroup";
+import { hostname } from "../../config";
 const JobSearch = (props) => {
   const searchformhandler=(e)=>{
     e.preventDefault()
@@ -76,7 +77,7 @@ const JobSearch = (props) => {
       </Col>
       <Col lg={6} md={5}>
         <img
-          src="http://localhost:3000/images/career/Group 1529.png"
+          src={`${hostname}/images/career/Group 1529.png`}
           className="w-100"
         />
       </Col>
