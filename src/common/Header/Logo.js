@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import { hostname } from "../../config"
 
 const Logo=()=>{
     return(

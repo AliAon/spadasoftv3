@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
 import SocialLinks from "../../common/Header/TopBarElements/SocialLinks";
+import { hostname } from "../../config";
 import AllBlogsGridTabContent from "./AllBlogsGridTabContent";
 
 const BlogDetails = () => {
@@ -52,13 +53,13 @@ const BlogDetails = () => {
         <Col lg={3}></Col>
         <Col>
           <img
-            src="http://localhost:3000/images/blogs/Image 1.png"
+            src={`${hostname}/images/blogs/Image 1.png`}
             className="w-100"
           />
         </Col>
         <Col>
           <img
-            src="http://localhost:3000//images/blogs/Image 2 (1).png"
+            src={`${hostname}//images/blogs/Image 2 (1).png`}
             className="w-100"
           />
         </Col>

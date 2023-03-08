@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
 import {FaStar} from "react-icons/fa"
+import { hostname } from "../../config";
+
 const PortfolioReview = () => {
   return (
     <Fragment>
@@ -18,14 +20,14 @@ const PortfolioReview = () => {
           <FaStar color="#1AB70094" />
           <FaStar color="#1AB70094" />
           <FaStar color="#1AB70094" />
-          <img src="http://localhost:3000/images/portfolio/Line 7.png" />
+          <img src={`${hostname}/images/portfolio/Line 7.png`} />
           <span>
             {" "}
             <strong style={{ color: "#000000" }}>Amazon</strong>
           </span>
         </Col>
         <Col lg={{order:2}} md={6} className="col-lg-6 col-md-6 col-xs-12" xs={{order:1}}>
-        <img src="http://localhost:3000/images/portfolio/Group 1526.png" className="w-100"/>
+        <img src={`${hostname}/images/portfolio/Group 1526.png`} className="w-100"/>
         </Col>
       </Row>
     </Fragment>

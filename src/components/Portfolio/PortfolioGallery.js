@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
+import { hostname } from "../../config";
+
 const PortfolioGallery = () => {
   return (
     <Fragment>
@@ -7,7 +9,7 @@ const PortfolioGallery = () => {
         <Col lg={6} md={6} xs={12}>
           <figure className="fig-img">
             <img
-              src="http://localhost:3000/images/portfolio/Rectangle 10.png"
+              src={`${hostname}/images/portfolio/Rectangle 10.png`}
               className="w-100"
             />
           </figure>
@@ -18,7 +20,7 @@ const PortfolioGallery = () => {
                   style={{
                     borderRadius: "35px",
                   }}
-                  src="http://localhost:3000/images/portfolio/abstract.jpg"
+                  src={`${hostname}/images/portfolio/abstract.jpg`}
                   className="w-100"
                 />
               </figure>
@@ -26,7 +28,7 @@ const PortfolioGallery = () => {
             <Col>
               <figure className="fig-img">
                 <img
-                  src="http://localhost:3000/images/portfolio/Rectangle 13.png"
+                  src={`${hostname}/images/portfolio/Rectangle 13.png`}
                   className="w-100"
                 />
               </figure>
@@ -41,7 +43,7 @@ const PortfolioGallery = () => {
                   style={{
                     borderRadius: "35px",
                   }}
-                  src="http://localhost:3000/images/portfolio/abstract.jpg"
+                  src={`${hostname}/images/portfolio/abstract.jpg`}
                   className="w-100"
                 />
               </figure>
@@ -49,7 +51,7 @@ const PortfolioGallery = () => {
             <Col>
               <figure className="fig-img">
                 <img
-                  src="http://localhost:3000/images/portfolio/Rectangle 13.png"
+                  src={`${hostname}/images/portfolio/Rectangle 13.png`}
                   className="w-100"
                 />
               </figure>
@@ -57,7 +59,7 @@ const PortfolioGallery = () => {
           </Row>
           <figure className="fig-img">
             <img
-              src="http://localhost:3000/images/portfolio/keyboard.png"
+              src={`${hostname}/images/portfolio/keyboard.png`}
               className="w-100"
             />
           </figure>
