@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
+import { hostname } from "../config";
 
 const SectionTitle = (props) => {
   return (
@@ -15,7 +16,7 @@ const SectionTitle = (props) => {
             {props.title}
           </h3>
           </Fade>
-          <center><img src="http://localhost:3000/images/Rectangle (1).png"/></center>
+          <center><img src={`${hostname}/images/Rectangle (1).png`}/></center>
         </Col>
       </Row>
     </Fragment>

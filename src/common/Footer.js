@@ -9,6 +9,7 @@ import FaceBookText from "./Header/TopBarElements/FaceBookText";
 import TwitterText from "./Header/TopBarElements/TwitterText";
 import YouTubeText from "./Header/TopBarElements/YouTubeText";
 import InstagramText from "./Header/TopBarElements/InstagramText";
+import { hostname } from "../config";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -17,7 +18,7 @@ const Footer = () => {
           <Col lg={3}>
             <Row className=" footer__logo">
               <Col lg={4}>
-                <img src="http://localhost:3000/images/logo/Logo (1).png" />
+                <img src={`${hostname}/images/logo/Logo (1).png`} />
               </Col>
             </Row>
             <p className="footer__about-text">
