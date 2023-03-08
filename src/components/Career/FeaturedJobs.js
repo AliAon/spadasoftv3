@@ -3,6 +3,7 @@ import JobCard from "../../common/cards/JobCard";
 import { Row, Col } from "react-bootstrap";
 import SectionTitle from "../../common/SectionTitle";
 import {Link} from "react-router-dom";
+import { hostname } from "../../config";
 const FeaturedJobs = (props) => {
   return (
     <Fragment>
@@ -38,7 +39,7 @@ const FeaturedJobs = (props) => {
       </Row>
       <Row className=" featured-jobs_cards__btn removespacing ">
         <Col >
-       <Link to="http://localhost:3000/career/jobs"> <button className="btn-default">View More</button></Link>
+       <Link to={`${hostname}/career/jobs`}> <button className="btn-default">View More</button></Link>
         </Col>
       </Row>
     </Fragment>

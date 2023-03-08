@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import CardEight from "../../common/cards/CardEight";
 import SectionTitle from "../../common/SectionTitle";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 const FeaturedWork = (props) => {
   return (
@@ -63,7 +64,8 @@ const FeaturedWork = (props) => {
         <Row className="removespacing">
           <Col className="text-center">
           <Fade direction="up" duration={1500} triggerOnce={true}>
-            <button className="btn-default">See All Portfolio</button>
+            <Link to="/portfolio">
+            <button className="btn-default">See All Portfolio</button></Link>
             </Fade>
           </Col>
         </Row>

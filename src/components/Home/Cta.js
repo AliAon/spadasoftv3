@@ -5,6 +5,7 @@ import CardEight from "../../common/cards/CardEight";
 import CardFour from "../../common/cards/CardFour";
 import SectionTitle from "../../common/SectionTitle";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 const Cta = (props) => {
   return (
@@ -21,7 +22,7 @@ const Cta = (props) => {
         </p>
         </Fade>
         <Fade direction="up"  delay={500} duration={1000} triggerOnce={true}>
-        <button className="btn-default-white">Get Free Quotes</button>
+        <Link to="/contact-us"> <button className="btn-default-white">Get Free Quotes</button></Link>
         </Fade>
       </Col>
       <Col lg={3}></Col>
