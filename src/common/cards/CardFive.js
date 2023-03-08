@@ -1,7 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import { hostname } from "../../config";
 const CardFive = (props) => {
   const { title, excerpt, category, author, featured_image } = props;
   const categorylist = category?.map((el) => {
@@ -20,7 +19,7 @@ const CardFive = (props) => {
       </figure>
       <p className="cardFive__date">08.08.2021</p>
       <Fade direction="up" duration={1000} triggerOnce={true}>
-       <Link to={`${hostname}/blog/1`}> <h4 className="cardFive__title">{title}</h4></Link>
+       <Link to='http://localhost:3000/blog/1'> <h4 className="cardFive__title">{title}</h4></Link>
       </Fade>
       <Fade direction="up" duration={1000} delay={300} triggerOnce={true}>
         <p className="cardFive__description">{excerpt}</p>

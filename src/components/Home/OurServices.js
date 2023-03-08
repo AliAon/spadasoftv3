@@ -7,6 +7,7 @@ import { Fade } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
 
 import CardThree from "../../common/cards/CardThree";
+import { Link } from "react-router-dom";
 const OurServices = (props) => {
   return (
     <Row className="gx-4 gy-4 removespacing mb--30  section-about ">
@@ -66,9 +67,9 @@ const OurServices = (props) => {
         <Row>
           <Col>
             <Fade direction="up" duration={1500} triggerOnce={true}>
-              <link to="/services">
+              <Link to="/contact-us">
                 <button className="btn-default">Get Free Quotes</button>
-              </link>
+                </Link>
             </Fade>
           </Col>
         </Row>
