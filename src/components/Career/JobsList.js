@@ -1,13 +1,23 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 import { FaArrowDown } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import JobCardList from "../../common/cards/JobCardList";
 import ListPagination from "../../common/ListPagination";
 import { jobsData } from "../../data/Jobs";
+import {GiMoneyStack} from "react-icons/gi"
+import { Link } from "react-router-dom";
 const jobs = jobsData;
 const JobsList = (props) => {
-  const jobslist = jobs.map((job, index) => {
+  const [currentPage,setCurrentPage]=useState(1)
+  const [jobsPerPage,setjobsPerPage]=useState(5)
+  const lastindex=currentPage*jobsPerPage; //1*5=5
+  const firstindex=lastindex-jobsPerPage;//5-5=0
+  const jobstoshow=jobs.slice(firstindex,lastindex) // 1---5
+  const totalpages=Math.ceil(jobs.length/jobsPerPage)//15/5=3
+  const numbers=[...Array(totalpages+1).keys()].slice(1)//[1,2,3,4,5]
+
+  const jobslist = jobstoshow.map((job, index) => {
     return (
       <JobCardList
         key={index}
@@ -53,7 +63,7 @@ const JobsList = (props) => {
       <Row className="joblist_section_paginate removespacing">
         <Col></Col>
         <Col>
-          <ListPagination />
+          <ListPagination firstindex={firstindex} lastindex={lastindex} totalpages={totalpages} pages={numbers} CurrentSetPage={setCurrentPage} currentPage={currentPage}/>
         </Col>
         <Col></Col>
       </Row>

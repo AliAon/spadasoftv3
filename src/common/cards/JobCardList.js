@@ -1,6 +1,7 @@
 import { Row,Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaMoneyBill } from "react-icons/fa";
 import {GiMoneyStack} from "react-icons/gi"
+import { Link } from "react-router-dom";
 import { hostname } from "../../config";
 
 const JobCardList = (props) => {
@@ -55,9 +56,11 @@ const JobCardList = (props) => {
       </Col>
       <Col lg={3} md={12}>
         <div className="text-right">
+          <Link to={`${hostname}/career/jobs/1`}>
             <button className="apply_btn">
-                Apply Now
+                Read More
             </button>
+            </Link>
         </div>
       </Col>
     </Row>

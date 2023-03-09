@@ -58,5 +58,28 @@ export const jobsData = [
     company: "Lowvoltages Team",
     salary: "$11,000 - $60,000​",
     location: "London, England",
+  },{
+    title: "Junior UX Designer",
+    company: "Vvibu Leu Boz Studios",
+    salary: "$8,000 - $12,000​",
+    location: "Oxford, England",
+  },
+  {
+    title: "Principal UX Designer",
+    company: "Lowvoltages Team",
+    salary: "$11,000 - $60,000​",
+    location: "London, England",
+  },
+  {
+    title: "Junior UX Designer",
+    company: "Vvibu Leu Boz Studios",
+    salary: "$8,000 - $12,000​",
+    location: "Oxford, England",
+  },
+  {
+    title: "Principal UX Designer",
+    company: "Lowvoltages Team",
+    salary: "$11,000 - $60,000​",
+    location: "London, England",
   }
 ];

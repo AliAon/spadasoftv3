@@ -1,0 +1,110 @@
+/*-------------------------
+   Job Detail 
+-------------------------*/
+.job-details_company{
+    text-align: center;
+    font-size: var(--font-body-1);
+    font-family: 'Montserrat-SemiBold';
+    line-height: 40px;
+}
+.job-details_company_excerpt{
+    text-align: center;
+    color: black;
+}
+
+.job-details_company_follow-btn{
+    background-color: var(--Default);
+    border: 0px;
+    padding-top: 10px;
+    font-family: Montserrat;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid var(--Default);
+    transition-property: all;
+}
+.desktop-hidden{
+    display: none;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .job-details_company_follow-btn{
+        padding-left: 5px;
+        font-size: 12px;
+        padding-right: 5px;
+        border-radius: 15px;
+    }
+
+}
+@media only screen and (max-width: 479px) {
+    .job-details_company_follow-btn{
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;     
+    }
+    .desktop-hidden{
+        display: block;
+    }
+}
+.job-details_company_follow-btn:hover {
+    background-color: white;
+    color: var(--Active-Green-);
+    border: 2px solid var(--Default);
+ }
+ .job-details_company_about-comapny{
+    color: rgb(54, 56, 72);
+    font-family: 'Montserrat-SemiBold';
+    font-size: var(--h5);
+    padding-bottom: 1rem;
+ }
+/*-------------------------
+   Job Card Two 
+-------------------------*/
+.job-detail{
+    margin-top: -160px;
+}
+ .card__job{
+    &-title{
+        font-size: 26px;
+        font-family: 'Montserrat-SemiBold';
+        line-height: 40px;
+       
+     }
+     @media only screen and (min-width: 576px) and (max-width: 768px) {
+        &-title{
+            font-size: 20px;           
+         }
+    }
+    @media only screen and (max-width: 479px) {
+        &-title{
+            font-size: 18px;           
+         }
+    }
+    &-posted{
+        font-family: 'Montserrat-Medium';
+    } 
+ }
+ @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .job-location__famarker {
+        width: 40px;
+        display: block;
+        height: 40px;
+        background-color: #f2f7ee;
+        text-align: center;
+        padding: 8px;
+        border-radius: 50%;
+    }
+ }
+ .section_cta-ctatwo{
+    padding-bottom:20rem
+ }
+ @media only screen and (max-width: 479px) {
+    .section_cta-ctatwo{
+        padding-bottom:14rem!important
+     }
+     .visibilty{
+        display: none;
+     }
+}
