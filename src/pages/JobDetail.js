@@ -38,7 +38,7 @@ const JobDetail = () => {
           <Col  className="col-lg-4 col-md-4 col-12" lg={{order:1}} xs={{order:2}} md={{order:1}}>
             <Card
               style={{
-                padding: "20px",
+                padding: "15px",
                 border:"unset",
                 paddingBottom:"36px",
                 boxShadow: "0px 5.83156px 18.3278px rgba(143, 134, 196, 0.07)"
@@ -135,7 +135,7 @@ const JobDetail = () => {
                       <div
                         className="job-location"
                       >
-                        <Row className="removespacing">
+                        <Row className="removespacing gx-2">
                           <Col lg={2} md={4} xs={2}>
                             <span className="job-location__famarker">
                               <FaMapMarkerAlt size={20} color="#808080" />

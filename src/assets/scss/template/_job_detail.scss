@@ -59,6 +59,11 @@
     font-size: var(--h5);
     padding-bottom: 1rem;
  }
+ @media only screen and (max-width: 479px) {
+    .job-details_company_about-comapny{
+        padding-bottom: unset;
+     }
+}
 /*-------------------------
    Job Card Two 
 -------------------------*/

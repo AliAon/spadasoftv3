@@ -176,12 +176,18 @@
    @media only screen and (max-width: 479px) {
       &__name {
          font-size: 10px;
+         padding: 0px;
+         margin: 0px;
       }
       &__salary_count {
          font-size: 10px;
+         padding: 0px;
+         margin: 0px;
       }
       &__compay {
          font-size: 10px;
+         padding: 0px;
+         margin: 0px;
       }
    }
 }
