@@ -7,22 +7,13 @@ import HeaderCTA from "../common/HeaderCTA";
 import HeaderMobile from "../common/HeaderMobile";
 import JobSearch from "../components/Career/JobSearch";
 import Brand from "../components/Home/Brand";
-import { GiMoneyStack } from "react-icons/gi";
-import { BsFillBagCheckFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import {
-  FaHeart,
-  FaMapMarkerAlt,
-  FaMoneyBill,
-  FaStar,
-  FaUser,
-} from "react-icons/fa";
-
+import JobCard from "../common/cards/JobCard";
 import Cta from "../components/Home/Cta";
 import JobsList from "../components/Career/JobsList";
 import UpCommingEvents from "../components/Career/UpCommingEvents";
 import { hostname } from "../config";
 import HeaderCTATwo from "../common/HeaderCTATwo";
+import JobDetailOverview from "../components/Career/JobDetailOverview";
 const JobDetail = () => {
   return (
     <Fragment>
@@ -33,7 +24,8 @@ const JobDetail = () => {
         title="Job Details"
         description="Rebranding awesome company"
       />
-      <Container>
+      <JobDetailOverview/>
+      {/* <Container>
         <Row className="removespacing job-detail gy-4">
           <Col  className="col-lg-4 col-md-4 col-12" lg={{order:1}} xs={{order:2}} md={{order:1}}>
             <Card
@@ -73,7 +65,7 @@ const JobDetail = () => {
                   >
                     <Col lg={6} md={12} xs={6}>
                       <div className="job-location">
-                        <Row className="removespacing gx-2">
+                        <Row className="removespacing gx-2 align-items-center">
                           <Col lg={5} md={4} xs={4}>
                             <span
                               className="job-location__famarker"
@@ -104,7 +96,7 @@ const JobDetail = () => {
                     </Col>
                     <Col lg={6}  md={12} xs={6}>
                       <div className="job-location">
-                        <Row className="removespacing gx-2">
+                        <Row className="removespacing gx-2 align-items-center">
                           <Col lg={5} md={4} xs={4}>
                             <span
                               className="job-location__famarker "
@@ -391,6 +383,37 @@ const JobDetail = () => {
             </Card>
           </Col>
         </Row>
+      </Container> */}
+      <Container fluid className="section__testimonial">
+      <Container style={{
+        paddingTop:"40px",
+        paddingBottom:"40px"
+      }}>
+      <Row className="removespacing featuredprofile__section__title-viewmore">
+          <Col lg={9} md={9}>
+            <h3 className="featured_profile__title">Related jobs</h3>
+          </Col>
+          <Col lg={3} md={3}>
+            <p className="portfolioreview__section__custom_view text-right">View more</p>
+          </Col>
+        </Row>
+        <Row className="gx-3 gy-4 featured-jobs_cards removespacing">
+        <Col lg={3} md={6}>
+          <JobCard />
+        </Col>
+        <Col lg={3} md={6}>
+          <JobCard />
+        </Col>
+        <Col lg={3} md={6}>
+          <JobCard />
+        </Col>
+        <Col lg={3} md={6}>
+          <JobCard />
+        </Col>
+      </Row>
+        
+
+      </Container>
       </Container>
       <Container>
         <Brand />

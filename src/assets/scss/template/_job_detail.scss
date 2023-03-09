@@ -57,7 +57,6 @@
     color: rgb(54, 56, 72);
     font-family: 'Montserrat-SemiBold';
     font-size: var(--h5);
-    padding-bottom: 1rem;
  }
  @media only screen and (max-width: 479px) {
     .job-details_company_about-comapny{
@@ -69,6 +68,7 @@
 -------------------------*/
 .job-detail{
     margin-top: -160px;
+    padding-bottom: 50px;
 }
  .card__job{
     &-title{

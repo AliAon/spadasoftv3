@@ -2,10 +2,11 @@ import { Fade } from "react-awesome-reveal";
 import { Row, Col } from "react-bootstrap";
 import { FaHeart, FaMap, FaMapMarked, FaMapMarker, FaMapMarkerAlt } from "react-icons/fa";
 import {GiMoneyStack} from "react-icons/gi"
+import { hostname } from "../../config";
 const JobCard = (props) => {
   return (
       <div className="jobcard position-relative">
-        <img src="./images/companyLogo.png" className="jobcard__image" />
+        <img src={`${hostname}/images/companyLogo.png`} className="jobcard__image" />
         <h4 className="jobcard__title">Database Programmer</h4>
         <div>
           <p className="jobcard__company">Maximoz Team</p>
@@ -25,7 +26,7 @@ const JobCard = (props) => {
             <button className="jobcard__apply-now">Apply Now</button>
           </Col>
         </Row>
-        <img src="./images/ic_moreVertical.png" className="jobcard__icon_dots position-absolute" />
+        <img src={`${hostname}/images/ic_moreVertical.png`} className="jobcard__icon_dots position-absolute" />
       </div>
   );
 };
