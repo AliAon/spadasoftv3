@@ -75,6 +75,12 @@
    float: right;
 }
 @media only screen and (max-width: 479px) {
+   .jobsearch_section {
+      padding-bottom: 0px;
+   }
+   .joblist_section {
+      padding-top: 0rem;
+   }
    .joblist_section__title {
       text-align: left;
       font-size: 14px;      

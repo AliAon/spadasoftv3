@@ -78,7 +78,7 @@ const JobSearch = (props) => {
       <Col lg={6} md={5}>
         <img
           src={`${hostname}/images/career/Group 1529.png`}
-          className="w-100"
+          className="w-100 hidden-mobile"
         />
       </Col>
     </Row>
