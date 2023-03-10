@@ -24,7 +24,7 @@ const DevelopmentTabContent = (props) => {
       <Row className="SelectedWork-category-section gx-5 gy-4 align-items-center removespacing">
         <Col lg={6} md={6} sm={12} xs={12}>
           <ReadMoreBlock
-            title="Plant identification app"
+            title="Plant Identification App"
             description1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices lorem non feugiat egestas amet."
             subtitle="Mobile App"
           />
