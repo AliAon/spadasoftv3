@@ -176,10 +176,16 @@ input::placeholder {
    .containerCrousel{
       padding-top: 2rem;
    }
-   .crouselItem{
-      padding: 10px;
-      width: 340px !important;
-   }
+   // .crouselItem{
+   //    padding: 10px;
+   //    width: 340px !important;
+   // }
+}
+@media only screen and (max-width: 320px) {
+      .crouselItem{
+         width: 280px !important;
+      }
+  
 }
 .strong-text{
    font-family: Montserrat;
