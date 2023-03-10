@@ -138,7 +138,7 @@ const BlogDetails = () => {
                 </Col>
               </Row>
             </Col>
-            <Col lg={3} md={6} xs={5}>
+            <Col lg={3} md={6} xs={6}>
               <SocialLinks color="#495057" />
             </Col>
           </Row>

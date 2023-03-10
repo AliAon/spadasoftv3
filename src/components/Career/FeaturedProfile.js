@@ -35,7 +35,12 @@ const FeaturedProfile = (props) => {
             <h3 className="featured_profile__title">Featured profile this week</h3>
           </Col>
           <Col lg={3} md={3}>
-            <p className="portfolioreview__section__custom_view text-right">View more</p>
+            <p  style={{
+                 fontFamily: "Montserrat-Bold",
+                 color: "#1ab700",
+                 fontSize: "var(--font-body-2)",
+                 textAlign:"center"
+            }}>View more</p>
           </Col>
         </Row>
        

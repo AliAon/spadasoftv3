@@ -25,7 +25,7 @@ const Career = () => {
           <CareerGrid />
         </Container>
       </Container>
-      <Container className="testimonials-section">
+      <Container className="testimonials-section mb--10">
         <WhyChooseUs />
       </Container>
       <Container fluid className="section__testimonial">
