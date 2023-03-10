@@ -330,9 +330,11 @@ const JobDetailOverview = () => {
             </Row>
             <Row className="removespacing">
               <Col>
+              <Link to='/applyjob'>
                 <button className="job-details_company_follow-btn desktop-hidden w-100">
                   Apply Now
                 </button>
+                </Link> 
               </Col>
             </Row>
             <Row className="removespacing pt--40">
