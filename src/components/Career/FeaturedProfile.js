@@ -16,12 +16,14 @@ const FeaturedProfile = (props) => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
+      
     },
+    
   };
 
 
@@ -37,7 +39,7 @@ const FeaturedProfile = (props) => {
           </Col>
         </Row>
        
-          <Carousel itemClass="crouselCardItem"  showDots={true} containerClass="containerCrousel" responsive={responsive}>
+          <Carousel  itemClass="crouselCardItem"  showDots={true} containerClass="containerCrousel" responsive={responsive}>
             <div>
             <ProfileCardNine />
             </div>

@@ -22,7 +22,7 @@ const JobCard = (props) => {
             <FaHeart size={20} color="#fff"/>
             </div>
           </Col>
-          <Col lg={7} md={7} xs={5}>
+          <Col lg={7} md={7} xs={7} >
             <button className="jobcard__apply-now">Apply Now</button>
           </Col>
         </Row>

@@ -175,7 +175,10 @@ input::placeholder {
 @media only screen and (max-width: 479px) {
    .containerCrousel{
       padding-top: 2rem;
-
+   }
+   .crouselItem{
+      padding: 10px;
+      width: 340px !important;
    }
 }
 .strong-text{

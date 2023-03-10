@@ -54,6 +54,15 @@
       margin-left: 0px;
       margin-right: 0px;
    }
+   &__menu-title{
+      font-size:  var( --font-body-3);
+  
+   }
+   &__menu-lnks{ 
+      li{
+         font-size:  var(--font-body-3)!important;
+      }
+     }
 }
 
 }

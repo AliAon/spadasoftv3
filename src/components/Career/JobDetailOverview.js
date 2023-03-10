@@ -22,7 +22,7 @@ const JobDetailOverview = () => {
         >
           <Card
             style={{
-              padding: "15px",
+              padding: "10px",
               border: "unset",
               paddingBottom: "36px",
               boxShadow: "0px 5.83156px 18.3278px rgba(143, 134, 196, 0.07)",
@@ -206,7 +206,7 @@ const JobDetailOverview = () => {
         >
           <Card
             style={{
-              padding: "20px",
+              padding: "10px",
               border: "unset",
               boxShadow: "0px 5.83156px 18.3278px rgba(143, 134, 196, 0.07)",
             }}

@@ -109,5 +109,11 @@
     .portfolioreview__section {
         padding-top: 1rem;
         padding-bottom: 1rem;
+        &__custom_title {
+            font-size: var(--h3);
+        }
+        &__custom_view {
+        text-align: left!important;
+        }
     }
 }
