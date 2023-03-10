@@ -25,10 +25,10 @@ const UpCommingEvents = (props) => {
   return (
     <Fragment>
       <Row className="joblist_section removespacing align-items-center">
-        <Col lg={6} md={6} xs={5}>
+        <Col lg={6} md={6} xs={12}>
           <h2 className="joblist_section__title">Upcoming Events</h2>
         </Col>
-        <Col lg={6} md={6} xs={7}>
+        <Col lg={6} md={6} xs={12}>
           <div className="filter_form">
             <span className="joblist_section_new-old">
                Filter Date <MdKeyboardArrowDown color="#1AB700" />
