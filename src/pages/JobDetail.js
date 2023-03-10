@@ -394,7 +394,11 @@ const JobDetail = () => {
             <h3 className="featured_profile__title">Related jobs</h3>
           </Col>
           <Col lg={3} md={3}>
-            <p className="portfolioreview__section__custom_view text-right">View more</p>
+            <p className=" text-right hidden-mobile" style={{
+                  fontFamily: "Montserrat-Bold",
+                  color: "#1ab700",
+                  fontSize: "var(--font-body-2)"
+            }}>View more</p>
           </Col>
         </Row>
         <Row className="gx-3 gy-4 featured-jobs_cards removespacing">
