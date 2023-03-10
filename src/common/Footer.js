@@ -28,17 +28,17 @@ const Footer = () => {
           <Col lg={3} md={4} xs={6}>
             <h5 className="footer__menu-title mb--20">QUICK LINKS</h5>
             <ul className="footer__menu-lnks">
-              <Link to="/">
+              <Link to="/about-us">
                 <li className="pb--15">
                   <BsArrowRightCircleFill
                     color="#544424"
                     size={12}
                     className="mr--5"
                   />{" "}
-                  Company
+                  About
                 </li>
               </Link>
-              <Link to="/about-us">
+              <Link to="/services">
               <li className="pb--15">
                   <BsArrowRightCircleFill
                     color="#544424"
@@ -48,7 +48,7 @@ const Footer = () => {
                   Our Services
                 </li>
               </Link>
-              <Link to="/our-fleet">
+              <Link to="/portfolio">
               <li className="pb--15">
                   <BsArrowRightCircleFill
                     color="#544424"
@@ -58,7 +58,7 @@ const Footer = () => {
                   Portfolio
                 </li>
               </Link>
-              <Link to="/services">
+              <Link to="/contact-us">
               <li className="pb--15">
                   <BsArrowRightCircleFill
                     color="#544424"
