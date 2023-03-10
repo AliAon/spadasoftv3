@@ -205,7 +205,7 @@ const JobApplyOverview = () => {
         >
           <Card
             style={{
-              padding: "20px",
+              padding: "10px",
               border: "unset",
             }}
           >
