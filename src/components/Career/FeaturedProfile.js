@@ -16,49 +16,57 @@ const FeaturedProfile = (props) => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      
     },
-    
   };
-
 
   return (
     <Fragment>
       <Row className="section__testimonial  removespacing featuredprofile__section">
         <Row className="removespacing featuredprofile__section__title-viewmore">
           <Col lg={9} md={9}>
-            <h3 className="featured_profile__title">Featured profile this week</h3>
+            <h3 className="featured_profile__title">
+              Featured Profile This Week
+            </h3>
           </Col>
           <Col lg={3} md={3}>
-            <p  style={{
-                 fontFamily: "Montserrat-Bold",
-                 color: "#1ab700",
-                 fontSize: "var(--font-body-2)",
-                 textAlign:"center"
-            }}>View more</p>
+            <p
+              style={{
+                fontFamily: "Montserrat-Bold",
+                color: "#1ab700",
+                fontSize: "var(--font-body-2)",
+                textAlign: "center",
+              }}
+            >
+              View more
+            </p>
           </Col>
         </Row>
-       
-          <Carousel  itemClass="crouselCardItem"  showDots={true} containerClass="containerCrousel" responsive={responsive}>
-            <div>
+
+        <Carousel
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          itemClass="crouselCardItem"
+          showDots={true}
+          containerClass="containerCrousel"
+          responsive={responsive}
+        >
+          <div>
             <ProfileCardNine />
-            </div>
-            <div>
+          </div>
+          <div>
             <ProfileCardNine />
-            </div>
-            <div>
+          </div>
+          <div>
             <ProfileCardNine />
-            </div>
-            <div>
+          </div>
+          <div>
             <ProfileCardNine />
-            </div>
-          </Carousel>
-        
+          </div>
+        </Carousel>
       </Row>
     </Fragment>
   );

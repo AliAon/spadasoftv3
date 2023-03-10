@@ -2,6 +2,7 @@ import { Fade } from "react-awesome-reveal";
 import { Row, Col } from "react-bootstrap";
 import { FaHeart, FaMap, FaMapMarked, FaMapMarker, FaMapMarkerAlt } from "react-icons/fa";
 import {GiMoneyStack} from "react-icons/gi"
+import { Link } from "react-router-dom";
 import { hostname } from "../../config";
 const JobCard = (props) => {
   return (
@@ -23,7 +24,9 @@ const JobCard = (props) => {
             </div>
           </Col>
           <Col lg={7} md={7} xs={7} >
+            <Link to={`${hostname}/applyjob`}>
             <button className="jobcard__apply-now">Apply Now</button>
+            </Link>
           </Col>
         </Row>
         <img src={`${hostname}/images/ic_moreVertical.png`} className="jobcard__icon_dots position-absolute" />
