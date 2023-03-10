@@ -3,14 +3,14 @@ import { BsFillBagCheckFill } from "react-icons/bs";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { hostname } from "../../config";
 import {
-    FaHeart,
-    FaMapMarkerAlt,
-    FaMoneyBill,
-    FaStar,
-    FaUser,
-  } from "react-icons/fa";
-import { Link } from "react-router-dom";
-const JobDetailOverview = () => {
+  FaHeart,
+  FaMapMarkerAlt,
+  FaMoneyBill,
+  FaStar,
+  FaUser,
+} from "react-icons/fa";
+import ApplyJobForm from "./ApplyJobForm";
+const JobApplyOverview = () => {
   return (
     <Container>
       <Row className="removespacing job-detail gy-4">
@@ -25,7 +25,6 @@ const JobDetailOverview = () => {
               padding: "15px",
               border: "unset",
               paddingBottom: "36px",
-              boxShadow: "0px 5.83156px 18.3278px rgba(143, 134, 196, 0.07)",
             }}
           >
             <Row className="removespacing">
@@ -208,171 +207,71 @@ const JobDetailOverview = () => {
             style={{
               padding: "20px",
               border: "unset",
-              boxShadow: "0px 5.83156px 18.3278px rgba(143, 134, 196, 0.07)",
             }}
           >
             <Row className="removespacing">
-              <Col lg={7} md={7} xs={10}>
-                <h2 className="card__job-title">Lead UI/UX Designer</h2>
-                <p className="card__job-posted">
-                  Posted by Admin on November 12th, 2020
-                </p>
+              <Col lg={5} md={12} xs={12}>
+                <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"22px"}}>Lead UI/UX Designer</h2>
+                <p className="card__job-posted">Experience 2-5 years </p>
               </Col>
-              <Col lg={5} md={5} xs={2}>
-                <Row
-                  className="removespacing"
-                  style={{
-                    padding: "0px",
-                    margin: "0px",
-                  }}
-                >
-                  <Col lg={8} md={8}>
-                    <Link to={`${hostname}/applyjob`}>
-                    <button className="job-details_company_follow-btn visibilty">
-                      Apply Now
-                    </button>
-                    </Link>
+              <Col lg={7} md={12} xs={12}>
+                <Row className="pt--10 gy-3 gx-0 removespacing">
+                  <Col lg={6} md={6} xs={12}>
+                    <div className="job-title">
+                      <Row className="removespacing">
+                        <Col lg={3} md={3} xs={2}>
+                          <span className="job-location__famarker">
+                            <GiMoneyStack size={25} color="#2BC155" />
+                          </span>{" "}
+                        </Col>
+                        <Col>
+                          <div>
+                            <h4 className="job-title__name">
+                              $14,000 - $25,000
+                            </h4>
+                            <p className="job-title__compay">Monthly Salary</p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
                   </Col>
-                  <Col lg={4} md={4}>
-                    <span className="job-location__famarker">
-                      <FaHeart size={20} color="#FF5353" />
-                    </span>
+                  <Col lg={6} md={6} xs={12}>
+                    <div className="job-location">
+                      <Row className="removespacing">
+                        <Col lg={3} md={3} xs={2}>
+                          <span className="job-location__famarker" style={{
+                            backgroundColor:"#FBA556"
+                          }}>
+                            <FaMapMarkerAlt size={20} color="#fff" />
+                          </span>
+                        </Col>
+                        <Col>
+                          <div>
+                            <h4 className="job-title__salary_count">
+                              London, England
+                            </h4>
+                            <p className="job-title__compay">Location</p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
                   </Col>
                 </Row>
               </Col>
             </Row>
+          </Card >
+          <Card  style={{
+              padding: "20px",
+              marginTop:"1rem",
+              border: "unset",
+            }}>
+                <Row>
+                    <Col>
+                    <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"22px"}}>Fill the job applications</h2>
+                    <ApplyJobForm/>
+                    </Col>
+                </Row>
 
-            <Row className="pt--20 gy-3 gx-0 removespacing">
-              <Col lg={4} md={6} xs={12}>
-                <div className="job-title">
-                  <Row className="removespacing">
-                    <Col lg={3} md={3} xs={2}>
-                      <span className="job-location__famarker">
-                        <GiMoneyStack size={25} color="#2BC155" />
-                      </span>{" "}
-                    </Col>
-                    <Col>
-                      <div>
-                        <h4 className="job-title__name">$14,000 - $25,000</h4>
-                        <p className="job-title__compay">Monthly Salary</p>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </Col>
-              <Col lg={4} md={6} xs={6}>
-                <div className="job-salary">
-                  <Row className="removespacing">
-                    <Col lg={3} md={3} xs={4}>
-                      <span className="job-location__famarker">
-                        <BsFillBagCheckFill size={20} color="#2BC155" />
-                      </span>
-                    </Col>
-                    <Col>
-                      <div>
-                        <h4 className="job-title__salary_count">2-3 Years​</h4>
-                        <p className="job-title__compay">Experience</p>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </Col>
-              <Col lg={4} md={6} xs={6}>
-                <div className="job-location">
-                  <Row className="removespacing">
-                    <Col lg={3} md={3} xs={3}>
-                      <span className="job-location__famarker">
-                        <FaMapMarkerAlt size={20} color="#2BC155" />
-                      </span>
-                    </Col>
-                    <Col>
-                      <div>
-                        <h4 className="job-title__salary_count">
-                          London, England
-                        </h4>
-                        <p className="job-title__compay">Location</p>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </Col>
-            </Row>
-            <Row className="removespacing pt--40">
-              <Col>
-                <h5
-                  className="job-details_company_about-comapny"
-                  style={{
-                    color: "#363848",
-                  }}
-                >
-                  Job Description
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
-                  <br />
-                  <br /> Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum Sed ut
-                  perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, s
-                </p>
-              </Col>
-            </Row>
-            <Row className="removespacing">
-              <Col>
-                <button className="job-details_company_follow-btn desktop-hidden w-100">
-                  Apply Now
-                </button>
-              </Col>
-            </Row>
-            <Row className="removespacing pt--40">
-              <Col>
-                <h5
-                  className="job-details_company_about-comapny"
-                  style={{
-                    color: "#363848",
-                  }}
-                >
-                  Galery
-                </h5>
-                <Row className="removespacing gy-2">
-                  <Col lg={3} md={6} xs={6}>
-                    <img
-                      src={`${hostname}/images/career/image (21).png`}
-                      className="w-100"
-                    />
-                  </Col>
-                  <Col lg={3} md={6} xs={6}>
-                    <img
-                      src={`${hostname}/images/career/image (21).png`}
-                      className="w-100"
-                    />
-                  </Col>
-                  <Col lg={3} md={6} xs={6}>
-                    <img
-                      src={`${hostname}/images/career/image (21).png`}
-                      className="w-100"
-                    />
-                  </Col>
-                  <Col lg={3} md={6} xs={6}>
-                    <img
-                      src={`${hostname}/images/career/image (21).png`}
-                      className="w-100"
-                    />
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
           </Card>
         </Col>
       </Row>
@@ -380,4 +279,4 @@ const JobDetailOverview = () => {
   );
 };
 
-export default JobDetailOverview
+export default JobApplyOverview;

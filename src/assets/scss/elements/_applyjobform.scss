@@ -1,0 +1,23 @@
+.applyjobform__form {
+    padding-top: 2rem;
+    &__label {
+        font-size: 14px;
+        font-family: "Montserrat-SemiBold";
+        line-height: 30px;
+    }
+    &__input::placeholder {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #d1d1d1;
+    }
+    &__input {
+        background: #fbfbfb!important;
+        border: 0.833333px solid #c2c2c2!important;
+        border-radius: 20px!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .onmobile{
+        width: 100%;
+    }
+}
