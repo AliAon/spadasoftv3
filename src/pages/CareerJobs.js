@@ -21,7 +21,6 @@ const CareerJobs = () => {
         <JobsList/>
         <UpCommingEvents/>
       </Container>
-
       <Container>
         <Brand />
       </Container>

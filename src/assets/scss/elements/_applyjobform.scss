@@ -15,9 +15,20 @@
         border: 0.833333px solid #c2c2c2!important;
         border-radius: 20px!important;
     }
+   
 }
 @media only screen and (max-width: 768px) {
     .onmobile{
         width: 100%;
     }
+}
+.applyjobform__form__btn{
+    background-color: var(--Active-Green-)!important;
+    color: white!important;
+    border: 2px solid var(--Default);
+}
+.applyjobform__form__btn:active{
+    background-color: var(--Active-Green-)!important;
+    color: white!important;
+    border: 2px solid var(--Default)!important;
 }
