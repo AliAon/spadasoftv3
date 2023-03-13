@@ -32,3 +32,9 @@
     color: white!important;
     border: 2px solid var(--Default)!important;
 }
+@media only screen and (max-width: 468px) {
+
+.applyjobform__form {
+    padding-top: 0px;
+}
+}
