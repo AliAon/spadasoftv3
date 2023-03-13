@@ -215,7 +215,7 @@ function ApplyJobForm() {
           />
         </Form.Group>
       </Row>
-      <Row className="mb-4 gx-4  ">
+      <Row className="mb-4 gx-4 gy-2 ">
         <Col lg={12}>
           <Form.Label className="applyjobform__form__label">
             Attach your resume
