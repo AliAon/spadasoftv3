@@ -29,14 +29,27 @@ const UpCommingEvents = (props) => {
           <h2 className="joblist_section__title">Upcoming Events</h2>
         </Col>
         <Col lg={6} md={6} xs={12}>
-          <div className="filter_form">
+          <Row className="removespacing align-items-center">
+            <Col lg={5} xs={1}>
+            </Col>
+          <Col lg={4} xs={5} className="filter-date_text-right">
+            
             <span className="joblist_section_new-old">
                Filter Date <MdKeyboardArrowDown color="#1AB700" />
-            </span>
-            <span className="joblist_section_new-old">
-            Newest <MdKeyboardArrowDown color="#1AB700" />
-            </span>
-          </div>
+            </span></Col>
+            <Col lg={3} xs={4}>
+            <Form.Select className="joblist_section_new-old">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+             <MdKeyboardArrowDown color="#1AB700" />
+            </Form.Select>
+            </Col>
+            </Row>
+          {/* <div className="filter_form">
+           
+            
+            
+          </div> */}
         </Col>
       </Row>
       <Row className="removespacing">

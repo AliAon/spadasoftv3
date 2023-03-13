@@ -214,6 +214,7 @@
    padding-right: 20px;
    color: #1ab700;
    border-radius: 20px;
+   font-size: 14px;
    transition-property: background-color, color;
    transition-duration: 0.5s;
 }
@@ -298,6 +299,9 @@
    text-align: center;
    position: absolute;
    top: 40%;
+}
+.filter-date_text-right{
+text-align: right;
 }
 @media only screen and (max-width: 479px) {
    .cardevents_date-box{

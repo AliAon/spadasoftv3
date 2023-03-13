@@ -39,7 +39,7 @@ const FeaturedProfile = (props) => {
                 fontFamily: "Montserrat-Bold",
                 color: "#1ab700",
                 fontSize: "var(--font-body-2)",
-                textAlign: "right",
+                textAlign: "center",
               }}
             >
               View more
@@ -53,6 +53,7 @@ const FeaturedProfile = (props) => {
           showDots={true}
           containerClass="containerCrousel"
           responsive={responsive}
+          arrows={false}
         >
           <div>
             <ProfileCardNine />

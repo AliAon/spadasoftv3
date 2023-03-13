@@ -207,11 +207,23 @@ const JobApplyOverview = () => {
             style={{
               padding: "10px",
               border: "unset",
+              paddingTop: "15px",
+              paddingBottom: "15px",
             }}
           >
             <Row className="removespacing">
               <Col lg={5} md={12} xs={12}>
-                <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"22px"}}>Lead UI/UX Designer</h2>
+                <h2
+                  className="job-details_company"
+                  style={{
+                    textAlign: "left",
+                    margin: "0px",
+                    padding: "0px",
+                    fontSize: "22px",
+                  }}
+                >
+                  Lead UI/UX Designer
+                </h2>
                 <p className="card__job-posted">Experience 2-5 years </p>
               </Col>
               <Col lg={7} md={12} xs={12}>
@@ -239,9 +251,12 @@ const JobApplyOverview = () => {
                     <div className="job-location">
                       <Row className="removespacing">
                         <Col lg={3} md={3} xs={2}>
-                          <span className="job-location__famarker" style={{
-                            backgroundColor:"#FBA556"
-                          }}>
+                          <span
+                            className="job-location__famarker"
+                            style={{
+                              backgroundColor: "#FBA556",
+                            }}
+                          >
                             <FaMapMarkerAlt size={20} color="#fff" />
                           </span>
                         </Col>
@@ -259,19 +274,30 @@ const JobApplyOverview = () => {
                 </Row>
               </Col>
             </Row>
-          </Card >
-          <Card  style={{
+          </Card>
+          <Card
+            style={{
               padding: "20px",
-              marginTop:"1rem",
+              marginTop: "1rem",
               border: "unset",
-            }}>
-                <Row>
-                    <Col>
-                    <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"20px"}}>Fill the job applications</h2>
-                    <ApplyJobForm/>
-                    </Col>
-                </Row>
-
+            }}
+          >
+            <Row>
+              <Col>
+                <h2
+                  className="job-details_company"
+                  style={{
+                    textAlign: "left",
+                    margin: "0px",
+                    padding: "0px",
+                    fontSize: "20px",
+                  }}
+                >
+                  Fill the job applications
+                </h2>
+                <ApplyJobForm />
+              </Col>
+            </Row>
           </Card>
         </Col>
       </Row>
