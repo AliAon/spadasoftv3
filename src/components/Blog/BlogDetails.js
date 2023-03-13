@@ -52,10 +52,7 @@ const BlogDetails = () => {
       <Row className="pt--30 pb--30 removespacing">
         <Col lg={3}></Col>
         <Col>
-          <img
-            src={`${hostname}/images/blogs/Image 1.png`}
-            className="w-100"
-          />
+          <img src={`${hostname}/images/blogs/Image 1.png`} className="w-100" />
         </Col>
         <Col>
           <img
@@ -125,7 +122,7 @@ const BlogDetails = () => {
         <Col>
           <Row className="gy-4">
             <Col lg={9} md={6} xs={12}>
-              <Row>
+              <Row className="align-items-end">
                 <Col lg={1} xs={2}>
                   <img
                     src="/images/blogs/Ellipse 4 (1).png"
@@ -133,8 +130,12 @@ const BlogDetails = () => {
                   />
                 </Col>
                 <Col lg={11} xs={8}>
-                  <h6 className="cardFive__name">By Jennifer Lawrence</h6>
-                  <p className="cardFive__designation">Thinker & Designer</p>
+                  <div style={{
+                        paddingLeft: "15px"
+                  }}>
+                    <h6 className="cardFive__name">By Jennifer Lawrence</h6>
+                    <p className="cardFive__designation">Thinker & Designer</p>
+                  </div>
                 </Col>
               </Row>
             </Col>
@@ -145,16 +146,17 @@ const BlogDetails = () => {
         </Col>
       </Row>
       <Row
-        className="pt--30 pb--30 removespacing"
+        className="pt--50 pb--50 pl--10 pr--10 removespacing"
         style={{
           backgroundColor: "#1ab7000f",
           borderRadius: "5px",
-          padding: "20px",
-          marginBottom:"40px"
+          marginBottom: "40px",
         }}
       >
         <Col>
-          <h4>Related Posts</h4>
+          <h4 style={{
+            fontFamily:"Montserrat-SemiBold"
+          }}>Related Posts</h4>
           <AllBlogsGridTabContent />
         </Col>
       </Row>

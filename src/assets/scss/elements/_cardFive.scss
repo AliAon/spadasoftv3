@@ -38,13 +38,14 @@
     }
     &__category{
         border-radius: 8px;
-        top: 5px;
-        right: 5px;
+        top: 15px;
+        right: 9px;
         font-size: 10px;
         display: flex;
         border: 0px;
         padding: 7px;
-      
+        outline: none;
+        box-shadow: none;
         list-style: none;
         & li{
             margin-right: 10px;

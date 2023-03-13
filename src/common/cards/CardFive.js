@@ -29,7 +29,7 @@ const CardFive = (props) => {
       <ul className="cardFive__category position-absolute">{categorylist}</ul>
       <div>
       <Fade direction="up" duration={1000} delay={500} triggerOnce={true}>
-        <Row>
+        <Row className="gx-0 align-items-end">
           <Col lg={3} xs={3}>
             <img src={author?.picture} />
           </Col>

@@ -15,6 +15,7 @@ const WhyChooseUs = (props) => {
               className="text-center cardThree__description "
               style={{
                 maxWidth: "700px",
+                marginBottom: "3rem"
               }}
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

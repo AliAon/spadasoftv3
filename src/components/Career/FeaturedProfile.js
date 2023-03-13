@@ -39,7 +39,7 @@ const FeaturedProfile = (props) => {
                 fontFamily: "Montserrat-Bold",
                 color: "#1ab700",
                 fontSize: "var(--font-body-2)",
-                textAlign: "center",
+                textAlign: "right",
               }}
             >
               View more

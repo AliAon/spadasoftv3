@@ -5,7 +5,7 @@ import { BlogsData } from "../../data/Blogs";
 const AllBlogsGridTabContent = (props) => {
   const bloglist = BlogsData.map((el) => {
     return (
-      <Col lg={4} md={4}>
+      <Col lg={4} md={6}>
         <CardFive
           title={el.title}
           excerpt={el.excerpt}

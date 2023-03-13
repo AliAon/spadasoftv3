@@ -105,7 +105,7 @@ function ApplyJobForm() {
         </Form.Group>
       </Row>
       <Row className="mb-4">
-        <Col lg={6} md={12} xs={12}>
+        <Col lg={6} md={10} xs={12}>
           <Form.Group controlId="formGridAttach">
             <Form.Label className="applyjobform__form__label">
               Attach your resume
@@ -119,7 +119,10 @@ function ApplyJobForm() {
                   padding: "10px",
                 }}
               >
-                <Col lg={2}>
+                <Col lg={3} md={2} xs={3} style={{
+                      marginTop: "auto",
+                      marginBottom: "auto"
+                }}>
                 <Form.Label for="inputfile">
                   <span
                     style={{

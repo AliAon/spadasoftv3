@@ -267,7 +267,7 @@ const JobApplyOverview = () => {
             }}>
                 <Row>
                     <Col>
-                    <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"22px"}}>Fill the job applications</h2>
+                    <h2 className="job-details_company" style={{textAlign:"left",margin:"0px",padding:"0px",fontSize:"20px"}}>Fill the job applications</h2>
                     <ApplyJobForm/>
                     </Col>
                 </Row>
